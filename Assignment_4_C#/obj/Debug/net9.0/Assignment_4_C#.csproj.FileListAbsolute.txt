@@ -1,0 +1,14 @@
+D:\Route\C#\session 4\Assignment_4_C#\obj\Debug\net9.0\Assignment_4_C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\C#\session 4\Assignment_4_C#\obj\Debug\net9.0\Assignment_4_C#.AssemblyInfoInputs.cache
+D:\Route\C#\session 4\Assignment_4_C#\obj\Debug\net9.0\Assignment_4_C#.AssemblyInfo.cs
+D:\Route\C#\session 4\Assignment_4_C#\obj\Debug\net9.0\Assignment_4_C#.csproj.CoreCompileInputs.cache
+D:\Route\C#\session 4\Assignment_4_C#\bin\Debug\net9.0\Assignment_4_C#.exe
+D:\Route\C#\session 4\Assignment_4_C#\bin\Debug\net9.0\Assignment_4_C#.deps.json
+D:\Route\C#\session 4\Assignment_4_C#\bin\Debug\net9.0\Assignment_4_C#.runtimeconfig.json
+D:\Route\C#\session 4\Assignment_4_C#\bin\Debug\net9.0\Assignment_4_C#.dll
+D:\Route\C#\session 4\Assignment_4_C#\bin\Debug\net9.0\Assignment_4_C#.pdb
+D:\Route\C#\session 4\Assignment_4_C#\obj\Debug\net9.0\Assignment_4_C#.dll
+D:\Route\C#\session 4\Assignment_4_C#\obj\Debug\net9.0\refint\Assignment_4_C#.dll
+D:\Route\C#\session 4\Assignment_4_C#\obj\Debug\net9.0\Assignment_4_C#.pdb
+D:\Route\C#\session 4\Assignment_4_C#\obj\Debug\net9.0\Assignment_4_C#.genruntimeconfig.cache
+D:\Route\C#\session 4\Assignment_4_C#\obj\Debug\net9.0\ref\Assignment_4_C#.dll
