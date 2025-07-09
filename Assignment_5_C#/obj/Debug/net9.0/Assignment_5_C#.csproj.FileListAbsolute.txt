@@ -1,0 +1,14 @@
+D:\Route\C#\session 5\Assignment_5_C#\obj\Debug\net9.0\Assignment_5_C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\C#\session 5\Assignment_5_C#\obj\Debug\net9.0\Assignment_5_C#.AssemblyInfoInputs.cache
+D:\Route\C#\session 5\Assignment_5_C#\obj\Debug\net9.0\Assignment_5_C#.AssemblyInfo.cs
+D:\Route\C#\session 5\Assignment_5_C#\obj\Debug\net9.0\Assignment_5_C#.csproj.CoreCompileInputs.cache
+D:\Route\C#\session 5\Assignment_5_C#\bin\Debug\net9.0\Assignment_5_C#.exe
+D:\Route\C#\session 5\Assignment_5_C#\bin\Debug\net9.0\Assignment_5_C#.deps.json
+D:\Route\C#\session 5\Assignment_5_C#\bin\Debug\net9.0\Assignment_5_C#.runtimeconfig.json
+D:\Route\C#\session 5\Assignment_5_C#\bin\Debug\net9.0\Assignment_5_C#.dll
+D:\Route\C#\session 5\Assignment_5_C#\bin\Debug\net9.0\Assignment_5_C#.pdb
+D:\Route\C#\session 5\Assignment_5_C#\obj\Debug\net9.0\Assignment_5_C#.dll
+D:\Route\C#\session 5\Assignment_5_C#\obj\Debug\net9.0\refint\Assignment_5_C#.dll
+D:\Route\C#\session 5\Assignment_5_C#\obj\Debug\net9.0\Assignment_5_C#.pdb
+D:\Route\C#\session 5\Assignment_5_C#\obj\Debug\net9.0\Assignment_5_C#.genruntimeconfig.cache
+D:\Route\C#\session 5\Assignment_5_C#\obj\Debug\net9.0\ref\Assignment_5_C#.dll
