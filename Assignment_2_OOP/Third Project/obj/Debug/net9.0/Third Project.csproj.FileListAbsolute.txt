@@ -1,0 +1,11 @@
+C:\Users\20101\Pictures\Assignment_2_OOP\Third Project\bin\Debug\net9.0\Third Project.deps.json
+C:\Users\20101\Pictures\Assignment_2_OOP\Third Project\bin\Debug\net9.0\Third Project.dll
+C:\Users\20101\Pictures\Assignment_2_OOP\Third Project\bin\Debug\net9.0\Third Project.pdb
+C:\Users\20101\Pictures\Assignment_2_OOP\Third Project\obj\Debug\net9.0\Third Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20101\Pictures\Assignment_2_OOP\Third Project\obj\Debug\net9.0\Third Project.AssemblyInfoInputs.cache
+C:\Users\20101\Pictures\Assignment_2_OOP\Third Project\obj\Debug\net9.0\Third Project.AssemblyInfo.cs
+C:\Users\20101\Pictures\Assignment_2_OOP\Third Project\obj\Debug\net9.0\Third Project.csproj.CoreCompileInputs.cache
+C:\Users\20101\Pictures\Assignment_2_OOP\Third Project\obj\Debug\net9.0\Third Project.dll
+C:\Users\20101\Pictures\Assignment_2_OOP\Third Project\obj\Debug\net9.0\refint\Third Project.dll
+C:\Users\20101\Pictures\Assignment_2_OOP\Third Project\obj\Debug\net9.0\Third Project.pdb
+C:\Users\20101\Pictures\Assignment_2_OOP\Third Project\obj\Debug\net9.0\ref\Third Project.dll
