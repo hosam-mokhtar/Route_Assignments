@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\20101\\Pictures\\Assignment_2_OOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27860950-F179-4C86-B2D6-F52AE7F2903C}|First Project\\First Project.csproj|c:\\users\\20101\\pictures\\assignment_2_oop\\first project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27860950-F179-4C86-B2D6-F52AE7F2903C}|First Project\\First Project.csproj|solutionrelative:first project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27860950-F179-4C86-B2D6-F52AE7F2903C}|First Project\\First Project.csproj|c:\\users\\20101\\pictures\\assignment_2_oop\\first project\\point3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27860950-F179-4C86-B2D6-F52AE7F2903C}|First Project\\First Project.csproj|solutionrelative:first project\\point3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C5D7746-5F05-48B8-AFF4-1A29968C21A7}|Third Project\\Third Project.csproj|c:\\users\\20101\\pictures\\assignment_2_oop\\third project\\duration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5D7746-5F05-48B8-AFF4-1A29968C21A7}|Third Project\\Third Project.csproj|solutionrelative:third project\\duration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7824E830-2D14-48CE-9B64-E5CA3257A5E0}|Second Project\\Second Project.csproj|c:\\users\\20101\\pictures\\assignment_2_oop\\second project\\maths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7824E830-2D14-48CE-9B64-E5CA3257A5E0}|Second Project\\Second Project.csproj|solutionrelative:second project\\maths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Duration.cs",
+              "DocumentMoniker": "C:\\Users\\20101\\Pictures\\Assignment_2_OOP\\Third Project\\Duration.cs",
+              "RelativeDocumentMoniker": "Third Project\\Duration.cs",
+              "ToolTip": "C:\\Users\\20101\\Pictures\\Assignment_2_OOP\\Third Project\\Duration.cs",
+              "RelativeToolTip": "Third Project\\Duration.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwFwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:47:41.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Maths.cs",
+              "DocumentMoniker": "C:\\Users\\20101\\Pictures\\Assignment_2_OOP\\Second Project\\Maths.cs",
+              "RelativeDocumentMoniker": "Second Project\\Maths.cs",
+              "ToolTip": "C:\\Users\\20101\\Pictures\\Assignment_2_OOP\\Second Project\\Maths.cs",
+              "RelativeToolTip": "Second Project\\Maths.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:21:58.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Point3D.cs",
+              "DocumentMoniker": "C:\\Users\\20101\\Pictures\\Assignment_2_OOP\\First Project\\Point3D.cs",
+              "RelativeDocumentMoniker": "First Project\\Point3D.cs",
+              "ToolTip": "C:\\Users\\20101\\Pictures\\Assignment_2_OOP\\First Project\\Point3D.cs",
+              "RelativeToolTip": "First Project\\Point3D.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T18:15:35.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\20101\\Pictures\\Assignment_2_OOP\\First Project\\Program.cs",
+              "RelativeDocumentMoniker": "First Project\\Program.cs",
+              "ToolTip": "C:\\Users\\20101\\Pictures\\Assignment_2_OOP\\First Project\\Program.cs",
+              "RelativeToolTip": "First Project\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwDcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:07:53.573Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
