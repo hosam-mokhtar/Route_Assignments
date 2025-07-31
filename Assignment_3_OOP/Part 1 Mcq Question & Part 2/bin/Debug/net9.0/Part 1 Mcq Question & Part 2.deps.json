@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Part 1 Mcq Question & Part 2/1.0.0": {
+        "runtime": {
+          "Part 1 Mcq Question & Part 2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Part 1 Mcq Question & Part 2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
