@@ -46,7 +46,11 @@
             //a) inherit
             //b) use
             //c) extends
+<<<<<<< Updated upstream
             //d) implements                                                        // Answer(d) =>  : colon
+=======
+            //d) implements                                                        // Answer(d)  : colon
+>>>>>>> Stashed changes
 
             #endregion
 
@@ -103,6 +107,7 @@
             //Implement these interfaces in classes Circle and Rectangle.
             //Test your implementation by creating instances of both classes and displaying their shape information.
 
+<<<<<<< Updated upstream
 
             ICircle circle = new Circle(5.5);
             circle.DisplayShapeInfo();
@@ -123,27 +128,109 @@
             // polymorphism
             IShape rectangle1 = rectangle;
             rectangle1.DisplayShapeInfo();
+=======
+            //Answer:
+
+            //ICircle circle = new Circle(5.5);
+            //circle.DisplayShapeInfo();
+
+            //Console.WriteLine(new string('-', 40));
+
+            //// polymorphism
+            //IShape circle1 = circle;
+            //circle1.DisplayShapeInfo();
+
+            //Console.WriteLine(new string('-', 40));
+
+            //IRectangle rectangle = new Rectangle(20.5, 10.5);
+            //rectangle.DisplayShapeInfo();
+
+            //Console.WriteLine(new string('-', 40));
+
+            //// polymorphism
+            //IShape rectangle1 = rectangle;
+            //rectangle1.DisplayShapeInfo();
+>>>>>>> Stashed changes
 
 
             #endregion
 
             #region Question 02:
+<<<<<<< Updated upstream
             //In this example, we start by defining the IAuthenticationService interface with two methods: AuthenticateUser and AuthorizeUser.The BasicAuthenticationService class implements this interface and provides the specific implementation for these methods.
             //In the BasicAuthenticationService class, the AuthenticateUser method compares the provided username and password with the stored credentials.It returns true if the user is authenticated and false otherwise.The AuthorizeUser method checks if the user with the given username has the specified role.It returns true if the user is authorized and false otherwise.
             //In the Main method, we create an instance of the BasicAuthenticationService class and assign it to the authService variable of type IAuthenticationService.We then call the AuthenticateUser and AuthorizeUser methods using this interface reference.
             //This implementation allows you to switch the authentication service implementation easily by creating a new class that implements the IAuthenticationService interface and providing the desired logic for authentication and authorization.
+=======
+            //In this example, we start by defining the IAuthenticationService interface with two methods: AuthenticateUser and AuthorizeUser.
+            //The BasicAuthenticationService class implements this interface and provides the specific implementation for these methods.
+            //In the BasicAuthenticationService class, the AuthenticateUser method compares the provided username and password with the stored credentials.
+            //It returns true if the user is authenticated and false otherwise.
+            //The AuthorizeUser method checks if the user with the given username has the specified role.
+            //It returns true if the user is authorized and false otherwise.
+            //In the Main method, we create an instance of the BasicAuthenticationService class and assign it to the authService variable of type IAuthenticationService.
+            //We then call the AuthenticateUser and AuthorizeUser methods using this interface reference.
+            //This implementation allows you to switch the authentication service implementation easily by creating a new class
+            //that implements the IAuthenticationService interface and providing the desired logic for authentication and authorization.
+
+            //Answer:
+
+            //string username = "mentor";
+            //string password = "12345";
+            //string role = "administrator";
+
+            //IAuthenticationService authenticationService = new BasicAuthenticationService();
+            //if (authenticationService.AuthenticateUser(username, password))
+            //{
+            //    Console.WriteLine($"Welcome {username}");
+            //    if (authenticationService.AuthorizeUser(username, role))
+            //    {
+            //        Console.WriteLine($"{username} role is {role}");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"Username {username} has no role");
+            //    }
+            //}
+            //else
+            //    Console.WriteLine($"Username {username} isn't exist.");
+
+>>>>>>> Stashed changes
 
             #endregion
 
             #region Question 03:
             //we define the INotificationService interface with a method SendNotification that takes a recipient and a message as parameters.
+<<<<<<< Updated upstream
             //We then create three classes: EmailNotificationService, SmsNotificationService, and PushNotificationService, which implement the INotificationService interface.
+=======
+            //We then create three classes: EmailNotificationService, SmsNotificationService, and PushNotificationService,
+            //which implement the INotificationService interface.
+>>>>>>> Stashed changes
             //In each implementation, we provide the logic to send notifications through the respective communication channel:
             //The EmailNotificationService class simulates sending an email by outputting a message to the console.
             //The SmsNotificationService class simulates sending an SMS by outputting a message to the console.
             //The PushNotificationService class simulates sending a push notification by outputting a message to the console.
+<<<<<<< Updated upstream
             //In the Main method, we create instances of each notification service class and call the SendNotification method with sample recipient and message values.
             //This implementation allows you to easily switch between different notification channels by creating new classes that implement the INotificationService interface and provide the specific logic for each channel.
+=======
+            //In the Main method, we create instances of each notification service class and call the SendNotification method
+            //with sample recipient and message values.
+            //This implementation allows you to easily switch between different notification channels by creating new classes
+            //that implement the INotificationService interface and provide the specific logic for each channel.
+
+            //Answer:
+
+            //INotificationService emailNotificationService = new EmailNotificationService();
+            //emailNotificationService.SendNotification("hosam.fcis@gmail.com", "Congratulations...");
+
+            //INotificationService smsNotificationService = new SmsNotificationService();
+            //smsNotificationService.SendNotification("+201012345678", "You will recivied 10000 L.E.....");
+
+            //INotificationService pushNotificationService = new PushNotificationService();
+            //pushNotificationService.SendNotification("user1", "You have a new message.");
+>>>>>>> Stashed changes
 
             #endregion
             #endregion

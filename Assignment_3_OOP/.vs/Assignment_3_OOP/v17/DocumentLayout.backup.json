@@ -7,6 +7,7 @@
       "RelativeMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|solutionrelative:part 1 mcq question \u0026 part 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|d:\\route\\oop\\assignment_3_oop\\part 1 mcq question \u0026 part 2\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|solutionrelative:part 1 mcq question \u0026 part 2\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +26,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|d:\\route\\oop\\assignment_3_oop\\part 1 mcq question \u0026 part 2\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|solutionrelative:part 1 mcq question \u0026 part 2\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|d:\\route\\oop\\assignment_3_oop\\part 1 mcq question \u0026 part 2\\pushnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|solutionrelative:part 1 mcq question \u0026 part 2\\pushnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|d:\\route\\oop\\assignment_3_oop\\part 1 mcq question \u0026 part 2\\smsnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|solutionrelative:part 1 mcq question \u0026 part 2\\smsnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|d:\\route\\oop\\assignment_3_oop\\part 1 mcq question \u0026 part 2\\emailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|solutionrelative:part 1 mcq question \u0026 part 2\\emailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|d:\\route\\oop\\assignment_3_oop\\part 1 mcq question \u0026 part 2\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34454F13-0F26-4835-AD75-725D2CC9EF33}|Part 1 Mcq Question \u0026 Part 2\\Part 1 Mcq Question \u0026 Part 2.csproj|solutionrelative:part 1 mcq question \u0026 part 2\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -34,6 +51,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 5,
           "Children": [
             {
@@ -60,10 +78,26 @@
               "ViewState": "AgIAAA0AAAAAAAAAAAAzwBEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T15:49:53.372Z",
+=======
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PushNotificationService.cs",
+              "DocumentMoniker": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\PushNotificationService.cs",
+              "RelativeDocumentMoniker": "Part 1 Mcq Question \u0026 Part 2\\PushNotificationService.cs",
+              "ToolTip": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\PushNotificationService.cs",
+              "RelativeToolTip": "Part 1 Mcq Question \u0026 Part 2\\PushNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T02:42:17.53Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
               "Title": "IRectangle.cs",
               "DocumentMoniker": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\IRectangle.cs",
@@ -73,11 +107,23 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T15:47:52.579Z",
+=======
+              "DocumentIndex": 2,
+              "Title": "SmsNotificationService.cs",
+              "DocumentMoniker": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\SmsNotificationService.cs",
+              "RelativeDocumentMoniker": "Part 1 Mcq Question \u0026 Part 2\\SmsNotificationService.cs",
+              "ToolTip": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\SmsNotificationService.cs",
+              "RelativeToolTip": "Part 1 Mcq Question \u0026 Part 2\\SmsNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T02:42:17.332Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< Updated upstream
               "Title": "ICircle.cs",
               "DocumentMoniker": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\ICircle.cs",
               "RelativeDocumentMoniker": "Part 1 Mcq Question \u0026 Part 2\\ICircle.cs",
@@ -86,10 +132,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T15:47:36.758Z",
+=======
+              "Title": "EmailNotificationService.cs",
+              "DocumentMoniker": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\EmailNotificationService.cs",
+              "RelativeDocumentMoniker": "Part 1 Mcq Question \u0026 Part 2\\EmailNotificationService.cs",
+              "ToolTip": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\EmailNotificationService.cs",
+              "RelativeToolTip": "Part 1 Mcq Question \u0026 Part 2\\EmailNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T02:42:17.11Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
               "Title": "IShape.cs",
               "DocumentMoniker": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\IShape.cs",
@@ -99,6 +156,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T15:42:54.409Z",
+=======
+              "DocumentIndex": 4,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Part 1 Mcq Question \u0026 Part 2\\INotificationService.cs",
+              "ToolTip": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\INotificationService.cs",
+              "RelativeToolTip": "Part 1 Mcq Question \u0026 Part 2\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T02:37:27.499Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
@@ -109,7 +177,11 @@
               "RelativeDocumentMoniker": "Part 1 Mcq Question \u0026 Part 2\\Program.cs",
               "ToolTip": "D:\\Route\\OOP\\Assignment_3_OOP\\Part 1 Mcq Question \u0026 Part 2\\Program.cs*",
               "RelativeToolTip": "Part 1 Mcq Question \u0026 Part 2\\Program.cs*",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAGgAAAAAAAAAAAASwHgAAAAzAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAABgAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T16:41:35.432Z",
               "EditorCaption": ""
