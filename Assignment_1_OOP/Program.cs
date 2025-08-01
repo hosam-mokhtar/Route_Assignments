@@ -176,42 +176,42 @@ namespace Assignment_1_OOP
             //a DBA, Guest and the third one is security officer who have full permissions.
             //(Employee[] EmpArr;)
 
-            //Employee[] EmpArr = new Employee[3];
+            Employee[] EmpArr = new Employee[3];
 
-            //EmpArr[0] = new Employee(
-            //    id: 1,
-            //    name: "Hossam",
-            //    securityLevel: SecurityLevel.DBA,
-            //    salary: 50_000_000,
-            //    hireDate: new HiringDate(1, 11, 2025),
-            //    gender: Gender.M
-            //);
+            EmpArr[0] = new Employee(
+                id: 1,
+                name: "Hossam",
+                securityLevel: SecurityLevel.DBA,
+                salary: 50_000_000,
+                hireDate: new HiringDate(1, 11, 1900),
+                gender: Gender.M
+            );
 
-            //EmpArr[1] = new Employee(
+            EmpArr[1] = new Employee(
 
-            //    id: 2,
-            //    name: "Nada",
-            //    securityLevel: SecurityLevel.Guest,
-            //    salary: 35000,
-            //    hireDate: new HiringDate(1, 9, 2023),
-            //    gender: Gender.F
-            //);
+                id: 2,
+                name: "Nada",
+                securityLevel: SecurityLevel.Guest,
+                salary: 35000,
+                hireDate: new HiringDate(1, 9, 2023),
+                gender: Gender.F
+            );
 
-            //EmpArr[2] = new Employee(
+            EmpArr[2] = new Employee(
 
-            //    id: 3,
-            //    name: "Radwa",
-            //    securityLevel: SecurityLevel.DBA | SecurityLevel.Guest |
-            //                    SecurityLevel.Developer | SecurityLevel.Secretary,
-            //    salary: 45000,
-            //    hireDate: new HiringDate(1, 12, 2024),
-            //    gender: Gender.F
-            //);
+                id: 3,
+                name: "Radwa",
+                securityLevel: SecurityLevel.DBA | SecurityLevel.Guest |
+                                SecurityLevel.Developer | SecurityLevel.Secretary,
+                salary: 45000,
+                hireDate: new HiringDate(1, 12, 2024),
+                gender: Gender.F
+            );
 
-            //foreach (var Emp in EmpArr)
-            //{
-            //    Console.WriteLine(Emp);
-            //}
+            foreach (var Emp in EmpArr)
+            {
+                Console.WriteLine(Emp);
+            }
 
             #endregion
 
