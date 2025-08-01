@@ -8,6 +8,20 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment_1_OOP
 {
+    enum Gender
+    {
+        M,
+        F
+    }
+
+    [Flags]
+    enum SecurityLevel : byte
+    {
+        Guest,
+        Developer,
+        Secretary,
+        DBA
+    }
     internal class Employee
     {
         private int _id;
