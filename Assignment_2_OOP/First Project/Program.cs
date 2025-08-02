@@ -8,6 +8,7 @@ using System;
 using Second_Project;
 using Third_Project;
 using System.Diagnostics.Metrics;
+using System.Collections;
 
 namespace First_Project
 {
@@ -16,9 +17,10 @@ namespace First_Project
         static void Main(string[] args)
         {
             #region First Project:
+
             #region 1.Define 3D Point Class and the basic Constructors(use chaining in constructors).
 
-            Point3D p = new Point3D();
+            //Point3D p = new Point3D();
 
             #endregion
 
@@ -27,39 +29,63 @@ namespace First_Project
             //Console.WriteLine(P.ToString());
             // Output: “Point Coordinates: (10, 10, 10)”.
 
-            Point3D P = new Point3D(10, 10, 10);
-            Console.WriteLine(P.ToString());
+            //Answer:
+            //Point3D P = new Point3D(10, 10, 10);
+            //Console.WriteLine(P.ToString());
 
             #endregion
 
             #region 3.Read from the User the Coordinates for 2 points P1, P2(Check the input using try Pares, Parse, Convert).
 
-            Point3D P1 = ReadPointFromUser("P1");
-            Point3D P2 = ReadPointFromUser("P2");
+            //Point3D P1 = ReadPointFromUser("P1");
+            //Point3D P2 = ReadPointFromUser("P2");
 
-            Console.WriteLine(P1);
-            Console.WriteLine(P2);
+            //Console.WriteLine(P1);
+            //Console.WriteLine(P2);
 
             #endregion
 
             #region 4.Try to use == If(P1 == P2)   Does it work properly? 
 
-            Console.WriteLine(P1 == P2);
+            //Console.WriteLine(P1 == P2);
 
             #endregion
 
-            //todo: 
-            /*   #region 5.Define an array of points and sort this array based on X & Y coordinates.
-               #endregion
-            */
 
-            //todo:
-            /*
-             #region 6.Implement ICloneable interface to be able to clone the object.
-             //To implement more than one interface.
-             //class Point3D : IComparable, ICloneable
-             #endregion
-            */
+            #region 5.Define an array of points and sort this array based on X & Y coordinates.
+
+            //Point3D[] points = new Point3D[]
+            //{
+            //    new Point3D(4, 3, 5),
+            //    new Point3D(1, 2, 3),
+            //    new Point3D(5,4,0),
+            //    new Point3D(2, 8, 1),
+            //    new Point3D(-4, 3, 9),
+            //    new Point3D(5,2,0)
+            //};
+
+            //Array.Sort(points);
+
+            //foreach (var point in points)
+            //    Console.WriteLine(point);
+
+            #endregion
+
+            #region 6.Implement ICloneable interface to be able to clone the object.
+            //To implement more than one interface.
+            //class Point3D : IComparable, ICloneable
+
+
+            //Point3D p1 = new Point3D(10,20,30);
+            //Point3D p2 = new Point3D(40,50,60);
+
+            //p1 = (Point3D)p2.Clone();
+
+            //Console.WriteLine(p1);
+            //Console.WriteLine(p2);
+
+            #endregion
+
 
             #endregion
 
@@ -68,10 +94,10 @@ namespace First_Project
             //each of them takes two parameters.Call each method in Main().
             //Modify the program so that you do not have to create an instance of class to call the four methods.
 
-            Console.WriteLine(Maths.Add(20, 20));
-            Console.WriteLine(Maths.Subtract(10, 20));
-            Console.WriteLine(Maths.Multiply(20, 20));
-            Console.WriteLine(Maths.Divide(10, 0));
+            //Console.WriteLine(Maths.Add(20, 20));
+            //Console.WriteLine(Maths.Subtract(10, 20));
+            //Console.WriteLine(Maths.Multiply(20, 20));
+            //Console.WriteLine(Maths.Divide(10, 0));
 
             #endregion
             #endregion
@@ -80,22 +106,22 @@ namespace First_Project
             #region Third Project:
             #region 1.Define Class Duration To include Three Attributes Hours, Minutes and Seconds.
 
-            Duration d;
+            //Duration d;
 
             #endregion
 
             #region 2.Override All System.Object Members(ToString, Equals, GetHasCode).
 
-            Duration d1 = new Duration();
-            Duration d2 = new Duration();
-            Duration d3 = new Duration(100);
+            //Duration d1 = new Duration();
+            //Duration d2 = new Duration();
+            //Duration d3 = new Duration(100);
 
-            Console.WriteLine(d1.GetHashCode());
-            Console.WriteLine(d2.GetHashCode()); // Same d1 code 
-            Console.WriteLine(d3.GetHashCode());
+            //Console.WriteLine(d1.GetHashCode());
+            //Console.WriteLine(d2.GetHashCode()); // Same d1 code 
+            //Console.WriteLine(d3.GetHashCode());
 
-            Console.WriteLine(d2.Equals(d1)); // true
-            Console.WriteLine(d3.Equals(d1)); // false
+            //Console.WriteLine(d2.Equals(d1)); // true
+            //Console.WriteLine(d3.Equals(d1)); // false
 
             #endregion
 
@@ -117,17 +143,17 @@ namespace First_Project
                                 Output: Minutes: 11, Seconds: 6
             */
 
-            Duration D1 = new Duration(1, 10, 15);
-            Console.WriteLine(D1.ToString());
+            //Duration D1 = new Duration(1, 10, 15);
+            //Console.WriteLine(D1.ToString());
 
-            Duration D2 = new Duration(3600);
-            Console.WriteLine(D2.ToString());
+            //Duration D2 = new Duration(3600);
+            //Console.WriteLine(D2.ToString());
 
-            Duration D3 = new Duration(7800);
-            Console.WriteLine(D3.ToString());
+            //Duration D3 = new Duration(7800);
+            //Console.WriteLine(D3.ToString());
 
-            Duration D4 = new Duration(666);
-            Console.WriteLine(D4.ToString());
+            //Duration D4 = new Duration(666);
+            //Console.WriteLine(D4.ToString());
 
             #endregion
 
@@ -145,25 +171,26 @@ namespace First_Project
             ●	DateTime Obj = (DateTime)D1
             */
 
-            Duration dd = D1 + D2;
-            Console.WriteLine(dd.ToString());
-            dd = D3 + 7800;
-            Console.WriteLine(dd.ToString());
-            dd = 666 + D3;
-            Console.WriteLine(dd.ToString());
-            dd++;
-            Console.WriteLine(dd.ToString());
-            dd--;
-            Console.WriteLine(dd.ToString());
-            D1 = D1 - D2;
-            Console.WriteLine(D1.ToString());
+            //Duration dd = D1 + D2;
+            //Console.WriteLine(dd.ToString());
+            //dd = D3 + 7800;
+            //Console.WriteLine(dd.ToString());
+            //dd = 666 + D3;
+            //Console.WriteLine(dd.ToString());
+            //dd++;
+            //Console.WriteLine(dd.ToString());
+            //dd--;
+            //Console.WriteLine(dd.ToString());
+            //D1 = D1 - D2;
+            //Console.WriteLine(D1.ToString());
 
-            Console.WriteLine($"D1 > D2 : {D1 > D2}");
-            Console.WriteLine($"D1 <= D2 : {D1 <= D2}");
-            Console.WriteLine($"D1 : {D1}");
+            //Console.WriteLine($"D1 > D2 : {D1 > D2}");
+            //Console.WriteLine($"D1 <= D2 : {D1 <= D2}");
+            //Console.WriteLine($"D1 : {D1}");
 
-            DateTime obj = (DateTime)D1;
-            Console.WriteLine($"DateTime : {obj}");
+            //DateTime obj = (DateTime)D1;
+            //Console.WriteLine($"DateTime : {obj}");
+
             #endregion
             #endregion
 
