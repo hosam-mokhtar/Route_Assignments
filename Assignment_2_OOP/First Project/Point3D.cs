@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace First_Project
 {
-    internal class Point3D
+    internal class Point3D : IComparable<Point3D>,ICloneable
     {
         private int _x { get; set; }
         public int X
@@ -27,9 +27,9 @@ namespace First_Project
             get { return _z; }
             set { _z = value; }
         }
-        public Point3D():this(0,0,0){}
-        public Point3D(int x):this(x,0,0){}
-        public Point3D(int x, int y):this(x,y,0){}
+        public Point3D() : this(0, 0, 0) { }
+        public Point3D(int x) : this(x, 0, 0) { }
+        public Point3D(int x, int y) : this(x, y, 0) { }
         public Point3D(int x, int y, int z)
         {
             X = x;
@@ -53,12 +53,39 @@ namespace First_Project
 
         public static bool operator ==(Point3D p1, Point3D p2)
         {
-            return Equals(p1,p2);
+            return Equals(p1, p2);
         }
         public static bool operator !=(Point3D p1, Point3D p2)
         {
             return Equals(p1, p2);
         }
 
+        public object Clone()
+        {
+            return new Point3D(X,Y,Z);
+            /*
+            return new Point3D()
+            {
+                X = this.X,
+                Y = this.Y,
+                Z = this.Z,
+            };
+            */
+        }
+
+        public int CompareTo(Point3D? other)
+        {
+            if (other is null)
+                return 1;
+
+            int xResult = this.X.CompareTo(other.X);
+
+            if (xResult == 0)
+            {
+                return this.Y.CompareTo(other.Y);
+            }
+
+            return xResult;
+        }
     }
 }
