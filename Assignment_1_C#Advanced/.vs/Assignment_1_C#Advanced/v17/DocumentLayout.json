@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Route\\Assignment_1_C#Advanced\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5876B54B-55E8-41F0-AB7A-AA08CDB4F82E}|Generics\\Generics.csproj|d:\\route\\assignment_1_c#advanced\\generics\\range.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5876B54B-55E8-41F0-AB7A-AA08CDB4F82E}|Generics\\Generics.csproj|solutionrelative:generics\\range.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5876B54B-55E8-41F0-AB7A-AA08CDB4F82E}|Generics\\Generics.csproj|d:\\route\\assignment_1_c#advanced\\generics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5876B54B-55E8-41F0-AB7A-AA08CDB4F82E}|Generics\\Generics.csproj|solutionrelative:generics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Range.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_1_C#Advanced\\Generics\\Range.cs",
+              "RelativeDocumentMoniker": "Generics\\Range.cs",
+              "ToolTip": "D:\\Route\\Assignment_1_C#Advanced\\Generics\\Range.cs",
+              "RelativeToolTip": "Generics\\Range.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T07:43:28.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_1_C#Advanced\\Generics\\Program.cs",
+              "RelativeDocumentMoniker": "Generics\\Program.cs",
+              "ToolTip": "D:\\Route\\Assignment_1_C#Advanced\\Generics\\Program.cs",
+              "RelativeToolTip": "Generics\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAD8AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T07:39:27.166Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
