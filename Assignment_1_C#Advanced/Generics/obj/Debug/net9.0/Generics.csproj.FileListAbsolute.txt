@@ -1,0 +1,14 @@
+D:\Route\Assignment_1_C#Advanced\Generics\obj\Debug\net9.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\Assignment_1_C#Advanced\Generics\obj\Debug\net9.0\Generics.AssemblyInfoInputs.cache
+D:\Route\Assignment_1_C#Advanced\Generics\obj\Debug\net9.0\Generics.AssemblyInfo.cs
+D:\Route\Assignment_1_C#Advanced\Generics\obj\Debug\net9.0\Generics.csproj.CoreCompileInputs.cache
+D:\Route\Assignment_1_C#Advanced\Generics\bin\Debug\net9.0\Generics.exe
+D:\Route\Assignment_1_C#Advanced\Generics\bin\Debug\net9.0\Generics.deps.json
+D:\Route\Assignment_1_C#Advanced\Generics\bin\Debug\net9.0\Generics.runtimeconfig.json
+D:\Route\Assignment_1_C#Advanced\Generics\bin\Debug\net9.0\Generics.dll
+D:\Route\Assignment_1_C#Advanced\Generics\bin\Debug\net9.0\Generics.pdb
+D:\Route\Assignment_1_C#Advanced\Generics\obj\Debug\net9.0\Generics.dll
+D:\Route\Assignment_1_C#Advanced\Generics\obj\Debug\net9.0\refint\Generics.dll
+D:\Route\Assignment_1_C#Advanced\Generics\obj\Debug\net9.0\Generics.pdb
+D:\Route\Assignment_1_C#Advanced\Generics\obj\Debug\net9.0\Generics.genruntimeconfig.cache
+D:\Route\Assignment_1_C#Advanced\Generics\obj\Debug\net9.0\ref\Generics.dll
