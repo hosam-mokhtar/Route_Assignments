@@ -1,0 +1,14 @@
+D:\Route\Assignment_2_C#Advanced\Collections\bin\Debug\net9.0\Collections.exe
+D:\Route\Assignment_2_C#Advanced\Collections\bin\Debug\net9.0\Collections.deps.json
+D:\Route\Assignment_2_C#Advanced\Collections\bin\Debug\net9.0\Collections.runtimeconfig.json
+D:\Route\Assignment_2_C#Advanced\Collections\bin\Debug\net9.0\Collections.dll
+D:\Route\Assignment_2_C#Advanced\Collections\bin\Debug\net9.0\Collections.pdb
+D:\Route\Assignment_2_C#Advanced\Collections\obj\Debug\net9.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\Assignment_2_C#Advanced\Collections\obj\Debug\net9.0\Collections.AssemblyInfoInputs.cache
+D:\Route\Assignment_2_C#Advanced\Collections\obj\Debug\net9.0\Collections.AssemblyInfo.cs
+D:\Route\Assignment_2_C#Advanced\Collections\obj\Debug\net9.0\Collections.csproj.CoreCompileInputs.cache
+D:\Route\Assignment_2_C#Advanced\Collections\obj\Debug\net9.0\Collections.dll
+D:\Route\Assignment_2_C#Advanced\Collections\obj\Debug\net9.0\refint\Collections.dll
+D:\Route\Assignment_2_C#Advanced\Collections\obj\Debug\net9.0\Collections.pdb
+D:\Route\Assignment_2_C#Advanced\Collections\obj\Debug\net9.0\Collections.genruntimeconfig.cache
+D:\Route\Assignment_2_C#Advanced\Collections\obj\Debug\net9.0\ref\Collections.dll
