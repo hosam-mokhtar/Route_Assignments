@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Route\\Assignment_3_C#Advanced\\Stack & Queue\\Stack & Queue.csproj": {}
+    "D:\\Route\\Route_Assignments\\Assignment_3_C#Advanced\\Stack & Queue\\Stack & Queue.csproj": {}
   },
   "projects": {
-    "D:\\Route\\Assignment_3_C#Advanced\\Stack & Queue\\Stack & Queue.csproj": {
+    "D:\\Route\\Route_Assignments\\Assignment_3_C#Advanced\\Stack & Queue\\Stack & Queue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Route\\Assignment_3_C#Advanced\\Stack & Queue\\Stack & Queue.csproj",
+        "projectUniqueName": "D:\\Route\\Route_Assignments\\Assignment_3_C#Advanced\\Stack & Queue\\Stack & Queue.csproj",
         "projectName": "Stack & Queue",
-        "projectPath": "D:\\Route\\Assignment_3_C#Advanced\\Stack & Queue\\Stack & Queue.csproj",
+        "projectPath": "D:\\Route\\Route_Assignments\\Assignment_3_C#Advanced\\Stack & Queue\\Stack & Queue.csproj",
         "packagesPath": "C:\\Users\\20101\\.nuget\\packages\\",
-        "outputPath": "D:\\Route\\Assignment_3_C#Advanced\\Stack & Queue\\obj\\",
+        "outputPath": "D:\\Route\\Route_Assignments\\Assignment_3_C#Advanced\\Stack & Queue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
