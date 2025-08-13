@@ -1,0 +1,14 @@
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\obj\Debug\net9.0\Stack & Queue.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\obj\Debug\net9.0\Stack & Queue.AssemblyInfoInputs.cache
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\obj\Debug\net9.0\Stack & Queue.AssemblyInfo.cs
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\obj\Debug\net9.0\Stack & Queue.csproj.CoreCompileInputs.cache
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\bin\Debug\net9.0\Stack & Queue.exe
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\bin\Debug\net9.0\Stack & Queue.deps.json
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\bin\Debug\net9.0\Stack & Queue.runtimeconfig.json
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\bin\Debug\net9.0\Stack & Queue.dll
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\bin\Debug\net9.0\Stack & Queue.pdb
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\obj\Debug\net9.0\Stack & Queue.dll
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\obj\Debug\net9.0\refint\Stack & Queue.dll
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\obj\Debug\net9.0\Stack & Queue.pdb
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\obj\Debug\net9.0\Stack & Queue.genruntimeconfig.cache
+D:\Route\Assignment_3_C#Advanced\Stack & Queue\obj\Debug\net9.0\ref\Stack & Queue.dll
