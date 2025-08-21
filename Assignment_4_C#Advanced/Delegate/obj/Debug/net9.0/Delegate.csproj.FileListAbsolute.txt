@@ -1,0 +1,14 @@
+D:\Route\Assignment_4_C#Advanced\Delegate\bin\Debug\net9.0\Delegate.exe
+D:\Route\Assignment_4_C#Advanced\Delegate\bin\Debug\net9.0\Delegate.deps.json
+D:\Route\Assignment_4_C#Advanced\Delegate\bin\Debug\net9.0\Delegate.runtimeconfig.json
+D:\Route\Assignment_4_C#Advanced\Delegate\bin\Debug\net9.0\Delegate.dll
+D:\Route\Assignment_4_C#Advanced\Delegate\bin\Debug\net9.0\Delegate.pdb
+D:\Route\Assignment_4_C#Advanced\Delegate\obj\Debug\net9.0\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\Assignment_4_C#Advanced\Delegate\obj\Debug\net9.0\Delegate.AssemblyInfoInputs.cache
+D:\Route\Assignment_4_C#Advanced\Delegate\obj\Debug\net9.0\Delegate.AssemblyInfo.cs
+D:\Route\Assignment_4_C#Advanced\Delegate\obj\Debug\net9.0\Delegate.csproj.CoreCompileInputs.cache
+D:\Route\Assignment_4_C#Advanced\Delegate\obj\Debug\net9.0\Delegate.dll
+D:\Route\Assignment_4_C#Advanced\Delegate\obj\Debug\net9.0\refint\Delegate.dll
+D:\Route\Assignment_4_C#Advanced\Delegate\obj\Debug\net9.0\Delegate.pdb
+D:\Route\Assignment_4_C#Advanced\Delegate\obj\Debug\net9.0\Delegate.genruntimeconfig.cache
+D:\Route\Assignment_4_C#Advanced\Delegate\obj\Debug\net9.0\ref\Delegate.dll
