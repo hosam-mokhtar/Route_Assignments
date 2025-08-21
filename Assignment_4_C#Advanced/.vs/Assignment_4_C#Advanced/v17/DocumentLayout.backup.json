@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Route\\Assignment_4_C#Advanced\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5932DB13-BC45-4600-87B3-3BBD602A328B}|Delegate\\Delegate.csproj|d:\\route\\assignment_4_c#advanced\\delegate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5932DB13-BC45-4600-87B3-3BBD602A328B}|Delegate\\Delegate.csproj|solutionrelative:delegate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5932DB13-BC45-4600-87B3-3BBD602A328B}|Delegate\\Delegate.csproj|d:\\route\\assignment_4_c#advanced\\delegate\\classes\\libraryengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5932DB13-BC45-4600-87B3-3BBD602A328B}|Delegate\\Delegate.csproj|solutionrelative:delegate\\classes\\libraryengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5932DB13-BC45-4600-87B3-3BBD602A328B}|Delegate\\Delegate.csproj|d:\\route\\assignment_4_c#advanced\\delegate\\classes\\bookfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5932DB13-BC45-4600-87B3-3BBD602A328B}|Delegate\\Delegate.csproj|solutionrelative:delegate\\classes\\bookfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5932DB13-BC45-4600-87B3-3BBD602A328B}|Delegate\\Delegate.csproj|d:\\route\\assignment_4_c#advanced\\delegate\\classes\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5932DB13-BC45-4600-87B3-3BBD602A328B}|Delegate\\Delegate.csproj|solutionrelative:delegate\\classes\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibraryEngine.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_4_C#Advanced\\Delegate\\Classes\\LibraryEngine.cs",
+              "RelativeDocumentMoniker": "Delegate\\Classes\\LibraryEngine.cs",
+              "ToolTip": "D:\\Route\\Assignment_4_C#Advanced\\Delegate\\Classes\\LibraryEngine.cs",
+              "RelativeToolTip": "Delegate\\Classes\\LibraryEngine.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T14:45:15.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookFunctions.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_4_C#Advanced\\Delegate\\Classes\\BookFunctions.cs",
+              "RelativeDocumentMoniker": "Delegate\\Classes\\BookFunctions.cs",
+              "ToolTip": "D:\\Route\\Assignment_4_C#Advanced\\Delegate\\Classes\\BookFunctions.cs",
+              "RelativeToolTip": "Delegate\\Classes\\BookFunctions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T14:38:21.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_4_C#Advanced\\Delegate\\Classes\\Book.cs",
+              "RelativeDocumentMoniker": "Delegate\\Classes\\Book.cs",
+              "ToolTip": "D:\\Route\\Assignment_4_C#Advanced\\Delegate\\Classes\\Book.cs",
+              "RelativeToolTip": "Delegate\\Classes\\Book.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T14:34:22.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_4_C#Advanced\\Delegate\\Program.cs",
+              "RelativeDocumentMoniker": "Delegate\\Program.cs",
+              "ToolTip": "D:\\Route\\Assignment_4_C#Advanced\\Delegate\\Program.cs",
+              "RelativeToolTip": "Delegate\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T14:30:31.637Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

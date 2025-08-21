@@ -33,7 +33,7 @@
             //    Balanced
 
             ////Answer:
-            //string s = "[()] { }";
+            //string s = "[()]{}";
             //Console.WriteLine($"String of Parentheses is {IsBalanced(s)}");
 
             #endregion
@@ -68,8 +68,6 @@
                        || s[i] == ']' && stack.Peek() == '['
                        || s[i] == '}' && stack.Peek() == '{'))
                     stack.Pop();
-                else if (s[i] == ' ')
-                    continue;
                 else
                     return "Not Balanced";
             }
