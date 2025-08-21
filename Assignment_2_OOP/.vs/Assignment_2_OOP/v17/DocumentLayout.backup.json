@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{27860950-F179-4C86-B2D6-F52AE7F2903C}|First Project\\First Project.csproj|d:\\route\\route_assignments\\assignment_2_oop\\first project\\point3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27860950-F179-4C86-B2D6-F52AE7F2903C}|First Project\\First Project.csproj|solutionrelative:first project\\point3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27860950-F179-4C86-B2D6-F52AE7F2903C}|First Project\\First Project.csproj|d:\\route\\route_assignments\\assignment_2_oop\\first project\\sortpoint3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27860950-F179-4C86-B2D6-F52AE7F2903C}|First Project\\First Project.csproj|solutionrelative:first project\\sortpoint3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C5D7746-5F05-48B8-AFF4-1A29968C21A7}|Third Project\\Third Project.csproj|d:\\route\\route_assignments\\assignment_2_oop\\third project\\duration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5D7746-5F05-48B8-AFF4-1A29968C21A7}|Third Project\\Third Project.csproj|solutionrelative:third project\\duration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SortPoint3D.cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_2_OOP\\First Project\\SortPoint3D.cs",
+              "RelativeDocumentMoniker": "First Project\\SortPoint3D.cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_2_OOP\\First Project\\SortPoint3D.cs",
+              "RelativeToolTip": "First Project\\SortPoint3D.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T14:11:40.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Duration.cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_2_OOP\\Third Project\\Duration.cs",
+              "RelativeDocumentMoniker": "Third Project\\Duration.cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_2_OOP\\Third Project\\Duration.cs",
+              "RelativeToolTip": "Third Project\\Duration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T16:19:54.32Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,7 +62,7 @@
               "RelativeDocumentMoniker": "First Project\\Point3D.cs",
               "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_2_OOP\\First Project\\Point3D.cs",
               "RelativeToolTip": "First Project\\Point3D.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAqwFAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAuwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T18:15:35.888Z",
               "EditorCaption": ""
@@ -39,9 +73,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_2_OOP\\First Project\\Program.cs",
               "RelativeDocumentMoniker": "First Project\\Program.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_2_OOP\\First Project\\Program.cs*",
-              "RelativeToolTip": "First Project\\Program.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowBYAAAAoAAAAAAAAAA==",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_2_OOP\\First Project\\Program.cs",
+              "RelativeToolTip": "First Project\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAqwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T15:07:53.573Z",
               "EditorCaption": ""
