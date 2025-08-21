@@ -73,19 +73,12 @@ namespace First_Project
             */
         }
 
-        public int CompareTo(Point3D? other)
+        public int CompareTo(Point3D? obj)
         {
-            if (other is null)
+            if (obj is not Point3D other)
                 return 1;
 
-            int xResult = this.X.CompareTo(other.X);
-
-            if (xResult == 0)
-            {
-                return this.Y.CompareTo(other.Y);
-            }
-
-            return xResult;
+            return this.X.CompareTo(other.X);
         }
     }
 }

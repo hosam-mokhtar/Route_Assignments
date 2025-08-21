@@ -64,7 +64,14 @@ namespace First_Project
             //    new Point3D(5,2,0)
             //};
 
-            //Array.Sort(points);
+            ////Array.Sort(points);
+
+            ////foreach (var point in points)
+            ////    Console.WriteLine(point);
+
+            ////Console.WriteLine(new string('-',40));
+
+            //Array.Sort(points, new SortPoint3D());
 
             //foreach (var point in points)
             //    Console.WriteLine(point);
