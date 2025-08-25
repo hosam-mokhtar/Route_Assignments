@@ -1,0 +1,14 @@
+D:\Route\OOP\Examination System\Examination\bin\Debug\net9.0\Examination.exe
+D:\Route\OOP\Examination System\Examination\bin\Debug\net9.0\Examination.deps.json
+D:\Route\OOP\Examination System\Examination\bin\Debug\net9.0\Examination.runtimeconfig.json
+D:\Route\OOP\Examination System\Examination\bin\Debug\net9.0\Examination.dll
+D:\Route\OOP\Examination System\Examination\bin\Debug\net9.0\Examination.pdb
+D:\Route\OOP\Examination System\Examination\obj\Debug\net9.0\Examination.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\OOP\Examination System\Examination\obj\Debug\net9.0\Examination.AssemblyInfoInputs.cache
+D:\Route\OOP\Examination System\Examination\obj\Debug\net9.0\Examination.AssemblyInfo.cs
+D:\Route\OOP\Examination System\Examination\obj\Debug\net9.0\Examination.csproj.CoreCompileInputs.cache
+D:\Route\OOP\Examination System\Examination\obj\Debug\net9.0\Examination.dll
+D:\Route\OOP\Examination System\Examination\obj\Debug\net9.0\refint\Examination.dll
+D:\Route\OOP\Examination System\Examination\obj\Debug\net9.0\Examination.pdb
+D:\Route\OOP\Examination System\Examination\obj\Debug\net9.0\Examination.genruntimeconfig.cache
+D:\Route\OOP\Examination System\Examination\obj\Debug\net9.0\ref\Examination.dll
