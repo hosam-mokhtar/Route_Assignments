@@ -32,5 +32,18 @@ namespace Examination
             return value;
         }
 
+        public static char ReadChar(string message, params char[] validChars)
+        {
+            char input;
+            do
+            {
+                Console.WriteLine(message);
+            }
+            while (!(char.TryParse(Console.ReadLine(), out input) && 
+                   validChars.Contains(input)));
+
+            return input;
+        }
+
     }
 }

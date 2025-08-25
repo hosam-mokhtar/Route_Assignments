@@ -17,15 +17,10 @@ namespace Examination
             subject.CreateExam();
             Console.Clear();
 
-            char Char;
-            do
-            {
-                Console.WriteLine("Do you want to  Start Exam (Y|N)");
+            string message = "Do you want to Start Exam (Y|N)";
+            char choice = ReadChar(message, 'Y', 'y', 'N', 'n');
 
-            } while (!(char.TryParse(Console.ReadLine(), out Char) && (Char is 'y' or 'Y' or 'n' or 'N')));
-
-
-            if (Char == 'Y' || Char == 'y')
+            if (choice is 'Y' or 'y')
             {
                 Console.Clear();
 
