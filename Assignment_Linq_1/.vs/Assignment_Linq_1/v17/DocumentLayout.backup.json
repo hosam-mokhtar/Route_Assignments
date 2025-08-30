@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Route\\OOP\\Assignment_Linq_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FFBE171-F982-4EF7-8622-18597A759174}|Linq\\Linq.csproj|d:\\route\\oop\\assignment_linq_1\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FFBE171-F982-4EF7-8622-18597A759174}|Linq\\Linq.csproj|solutionrelative:linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FFBE171-F982-4EF7-8622-18597A759174}|Linq\\Linq.csproj|d:\\route\\oop\\assignment_linq_1\\linq\\listgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FFBE171-F982-4EF7-8622-18597A759174}|Linq\\Linq.csproj|solutionrelative:linq\\listgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListGenerator.cs",
+              "DocumentMoniker": "D:\\Route\\OOP\\Assignment_Linq_1\\Linq\\ListGenerator.cs",
+              "RelativeDocumentMoniker": "Linq\\ListGenerator.cs",
+              "ToolTip": "D:\\Route\\OOP\\Assignment_Linq_1\\Linq\\ListGenerator.cs",
+              "RelativeToolTip": "Linq\\ListGenerator.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAqwEQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T23:03:26.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Route\\OOP\\Assignment_Linq_1\\Linq\\Program.cs",
+              "RelativeDocumentMoniker": "Linq\\Program.cs",
+              "ToolTip": "D:\\Route\\OOP\\Assignment_Linq_1\\Linq\\Program.cs*",
+              "RelativeToolTip": "Linq\\Program.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T22:53:26.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
