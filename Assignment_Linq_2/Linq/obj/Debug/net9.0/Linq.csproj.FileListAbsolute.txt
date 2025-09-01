@@ -1,0 +1,14 @@
+D:\Route\OOP\Assignment_Linq_2\Linq\obj\Debug\net9.0\Linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\OOP\Assignment_Linq_2\Linq\obj\Debug\net9.0\Linq.AssemblyInfoInputs.cache
+D:\Route\OOP\Assignment_Linq_2\Linq\obj\Debug\net9.0\Linq.AssemblyInfo.cs
+D:\Route\OOP\Assignment_Linq_2\Linq\obj\Debug\net9.0\Linq.csproj.CoreCompileInputs.cache
+D:\Route\OOP\Assignment_Linq_2\Linq\bin\Debug\net9.0\Linq.exe
+D:\Route\OOP\Assignment_Linq_2\Linq\bin\Debug\net9.0\Linq.deps.json
+D:\Route\OOP\Assignment_Linq_2\Linq\bin\Debug\net9.0\Linq.runtimeconfig.json
+D:\Route\OOP\Assignment_Linq_2\Linq\bin\Debug\net9.0\Linq.dll
+D:\Route\OOP\Assignment_Linq_2\Linq\bin\Debug\net9.0\Linq.pdb
+D:\Route\OOP\Assignment_Linq_2\Linq\obj\Debug\net9.0\Linq.dll
+D:\Route\OOP\Assignment_Linq_2\Linq\obj\Debug\net9.0\refint\Linq.dll
+D:\Route\OOP\Assignment_Linq_2\Linq\obj\Debug\net9.0\Linq.pdb
+D:\Route\OOP\Assignment_Linq_2\Linq\obj\Debug\net9.0\Linq.genruntimeconfig.cache
+D:\Route\OOP\Assignment_Linq_2\Linq\obj\Debug\net9.0\ref\Linq.dll
