@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Route\\OOP\\Assignment_Linq_2\\Linq\\Linq.csproj",
+      "projectUniqueName": "D:\\Route\\Assignment_Linq_2\\Linq\\Linq.csproj",
       "projectName": "Linq",
-      "projectPath": "D:\\Route\\OOP\\Assignment_Linq_2\\Linq\\Linq.csproj",
+      "projectPath": "D:\\Route\\Assignment_Linq_2\\Linq\\Linq.csproj",
       "packagesPath": "C:\\Users\\20101\\.nuget\\packages\\",
-      "outputPath": "D:\\Route\\OOP\\Assignment_Linq_2\\Linq\\obj\\",
+      "outputPath": "D:\\Route\\Assignment_Linq_2\\Linq\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
