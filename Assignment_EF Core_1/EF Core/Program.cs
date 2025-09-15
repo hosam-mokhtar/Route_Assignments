@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic;
+﻿using EF_Core.Data;
+using Microsoft.VisualBasic;
 using System.Collections.Generic;
 
 namespace EF_Core
