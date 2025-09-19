@@ -20,6 +20,7 @@ namespace Examination
 
         public abstract void CreateListOfQuestions();
         public abstract void ShowExam();
+        public abstract void ResultExam();
 
     }
 }
