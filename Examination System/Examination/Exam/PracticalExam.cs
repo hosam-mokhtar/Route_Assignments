@@ -28,7 +28,6 @@ namespace Examination
 
         public override void ShowExam()
         {
-
             foreach (var question in Questions)
             {
                 Console.WriteLine(question);
@@ -46,6 +45,11 @@ namespace Examination
 
             Console.Clear();
 
+            ResultExam();
+        }
+
+        public override void ResultExam()
+        {
             Console.WriteLine("Right Answers");
 
             for (int i = 0; i < Questions?.Length; i++)
