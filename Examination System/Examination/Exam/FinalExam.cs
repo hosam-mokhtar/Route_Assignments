@@ -57,7 +57,6 @@ namespace Examination
                 {
                     message = "Please Enter The answer Id (1 For True | 2 For False) ";
                     question.UserAnswer.Id = ReadInt(message, min: 1, max: 2);
-
                 }
 
                 question.UserAnswer.Text = question.Answers[question.UserAnswer.Id - 1].Text;
@@ -65,6 +64,11 @@ namespace Examination
 
             Console.Clear();
 
+            ResultExam();
+        }
+
+        public override void ResultExam()
+        {
             int grade = 0, totalMarks = 0;
 
             for (int i = 0; i < Questions?.Length; i++)
