@@ -9,9 +9,12 @@ using System.Runtime.Intrinsics.X86;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 using System.Threading;
+using System.Xml.Schema;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using static Linq.ListGenerators;
+
+using AnagramEC = Linq.AnagramEqualityComparer;
 
 namespace Linq
 {
@@ -22,11 +25,7 @@ namespace Linq
             foreach (var item in result)
                 Console.WriteLine(item);
         }
-        static string SortLetters(string word)
-        {
-            string cleaned = word.Replace(" ", "").ToLower();
-            return string.Concat(cleaned.OrderBy(c => c));
-        }
+
         static void Main(string[] args)
         {
             //Assignment 01 LINQ
@@ -320,16 +319,17 @@ namespace Linq
             //3.Consider this Array as an Input
             //Use Group By with a custom comparer that matches words that are consists of the same Characters Together
             //{
-            //string[] Arr = { "from", "salt", "earn", "last", "near", "form" };
-            //var res = Arr.GroupBy(w => w, new AnagramEqualityComparer());
+            //string[] Arr = { "from", "salt", "earn", " last", "near", "form" };
+            //var res = Arr.GroupBy(w => w.Trim(), new AnagramEqualityComparer());
+
             ////or
-            ////var res = Arr.GroupBy(word => SortLetters(word));
+            ////var res = Arr.GroupBy(word => AnagramEC.SortLetters(word).Trim());
 
             //foreach (var group in res)
             //{
             //    foreach (var item in group)
             //    {
-            //        Console.WriteLine(item);
+            //        Console.WriteLine(item.Trim());
             //    }
             //    Console.WriteLine("....");
             //}
