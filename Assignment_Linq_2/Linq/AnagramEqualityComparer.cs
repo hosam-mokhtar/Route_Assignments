@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,24 +11,32 @@ namespace Linq
     {
         public bool Equals(string? x, string? y)
         {
-            if (x == null && y == null) return true;
-            if (x == null || y == null) return false;
-
-            string cleanX = x.Replace(" ", "").ToLower();
-            string cleanY = y.Replace(" ", "").ToLower();
-
-            if (cleanX.Length != cleanY.Length) return false;
-
-            return string.Concat(cleanX.OrderBy(c => c)) == string.Concat(cleanY.OrderBy(c => c));
+            if (x is null && y is null) return true; 
+            if (x is null || y is null) return false;
+            
+            return SortLetters(x) == SortLetters(y);
         }
 
-        public int GetHashCode(string obj)
+        public int GetHashCode([DisallowNull] string obj)
         {
-            if (obj == null) return 0;
-
-            string cleaned = obj.Replace(" ", "").ToLower();
-            string sorted = string.Concat(cleaned.OrderBy(c => c));
-            return sorted.GetHashCode();
+            return SortLetters(obj).GetHashCode();
         }
+        static public string SortLetters(string word)
+        {
+            var res = word.ToLower().ToCharArray();
+            Array.Sort(res);
+
+            return new string(res);
+
+            //or
+            //return new string(word.Trim().ToLower().ToCharArray().OrderBy(c => c).ToArray());
+        }
+
+        //public string SortLetters(string word)
+        //{
+        //    string cleaned = word.Replace(" ", "").ToLower();
+
+        //    return new string(cleaned.OrderBy(c => c).ToArray());
+        //}
     }
 }
