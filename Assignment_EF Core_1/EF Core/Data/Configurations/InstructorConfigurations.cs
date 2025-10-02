@@ -20,10 +20,10 @@ namespace EF_Core.Data.Configurations
                    .UseIdentityColumn(1, 1);
 
             builder.Property(i => i.Name)
-                   .HasColumnName(SqlServerTypes.NVarChar(30));
+                   .HasColumnType(SqlServerTypes.NVarChar(30));
 
             builder.Property(i => i.Address)
-                   .HasColumnName(SqlServerTypes.NVarChar(150))
+                   .HasColumnType(SqlServerTypes.NVarChar(150))
                    .IsRequired(false);
 
             builder.Property(i => i.DepartmentId)

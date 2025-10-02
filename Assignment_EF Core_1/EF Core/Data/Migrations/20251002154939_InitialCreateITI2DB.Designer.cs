@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF_Core.Data.Migrations
 {
     [DbContext(typeof(ItiDbContext))]
-    [Migration("20250914235540_InitialCreateITIDB")]
-    partial class InitialCreateITIDB
+    [Migration("20251002154939_InitialCreateITI2DB")]
+    partial class InitialCreateITI2DB
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -94,8 +94,7 @@ namespace EF_Core.Data.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("NVARCHAR(50)");
+                        .HasColumnType("NVARCHAR(50)");
 
                     b.HasKey("Id");
 
@@ -112,8 +111,7 @@ namespace EF_Core.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("NVARCHAR(150)");
+                        .HasColumnType("NVARCHAR(150)");
 
                     b.Property<decimal>("Bouns")
                         .HasColumnType("decimal(18,2)");
@@ -127,8 +125,7 @@ namespace EF_Core.Data.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("NVARCHAR(30)");
+                        .HasColumnType("NVARCHAR(30)");
 
                     b.Property<decimal>("Salary")
                         .HasColumnType("decimal(18,2)");
@@ -148,8 +145,7 @@ namespace EF_Core.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("NVARCHAR(150)");
+                        .HasColumnType("NVARCHAR(150)");
 
                     b.Property<int>("Age")
                         .HasColumnType("int");
@@ -202,8 +198,7 @@ namespace EF_Core.Data.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("NVARCHAR(50)");
+                        .HasColumnType("NVARCHAR(50)");
 
                     b.HasKey("Id");
 
