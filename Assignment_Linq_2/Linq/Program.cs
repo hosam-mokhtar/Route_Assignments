@@ -252,16 +252,20 @@ namespace Linq
             //that is out of stock.
             //{
             //var res = from p in ProductList
-            //          group p by p.Category 
+            //          group p by p.Category
             //          into g
-            //          where g.Any(p => p.UnitsInStock > 0)
+            //          where g.Any(p => p.UnitsInStock == 0)
             //          select g;
+            ////OR 
+            //var res2 = ProductList.GroupBy(G => G.Category)
+            //                        .Where(pc => pc.Any(p => p.UnitsInStock == 0))
+            //                        .Select(p => p);
             //foreach (var group in res)
             //{
             //    Console.WriteLine($"Category: {group.Key}");
             //    foreach (var product in group)
             //    {
-            //        Console.WriteLine($"   {product.ProductName} (InStock: {product.UnitsInStock})");
+            //        Console.WriteLine($"     {product}");
             //    }
             //}
             //}
