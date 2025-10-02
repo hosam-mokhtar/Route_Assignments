@@ -28,7 +28,7 @@ namespace EF_Core.Data.Configurations
                    .HasColumnType(SqlServerTypes.NVarChar(30));
 
             builder.Property(s => s.Address)
-                   .HasColumnName(SqlServerTypes.NVarChar(150))
+                   .HasColumnType(SqlServerTypes.NVarChar(150))
                    .IsRequired(false);
 
             builder.Property(s => s.DepartmentId)
