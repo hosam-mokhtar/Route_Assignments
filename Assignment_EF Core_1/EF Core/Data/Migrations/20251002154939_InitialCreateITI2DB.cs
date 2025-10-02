@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace EF_Core.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreateITIDB : Migration
+    public partial class InitialCreateITI2DB : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -46,7 +46,7 @@ namespace EF_Core.Data.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NVARCHAR50 = table.Column<string>(name: "NVARCHAR(50)", type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "NVARCHAR(50)", nullable: false),
                     HiringDate = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValueSql: "getdate()"),
                     Ins_ID = table.Column<int>(type: "int", nullable: false)
                 },
@@ -61,9 +61,9 @@ namespace EF_Core.Data.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NVARCHAR30 = table.Column<string>(name: "NVARCHAR(30)", type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "NVARCHAR(30)", nullable: false),
                     HourRate = table.Column<int>(type: "int", nullable: false),
-                    NVARCHAR150 = table.Column<string>(name: "NVARCHAR(150)", type: "nvarchar(max)", nullable: true),
+                    Address = table.Column<string>(type: "NVARCHAR(150)", nullable: true),
                     Salary = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Bouns = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Dept_ID = table.Column<int>(type: "int", nullable: false)
@@ -94,7 +94,7 @@ namespace EF_Core.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FName = table.Column<string>(type: "NVARCHAR(30)", nullable: false),
                     LName = table.Column<string>(type: "NVARCHAR(30)", nullable: false),
-                    NVARCHAR150 = table.Column<string>(name: "NVARCHAR(150)", type: "nvarchar(max)", nullable: true),
+                    Address = table.Column<string>(type: "NVARCHAR(150)", nullable: true),
                     Age = table.Column<int>(type: "int", nullable: false),
                     Dep_Id = table.Column<int>(type: "int", nullable: false)
                 },
@@ -109,7 +109,7 @@ namespace EF_Core.Data.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NVARCHAR50 = table.Column<string>(name: "NVARCHAR(50)", type: "nvarchar(max)", nullable: false)
+                    Name = table.Column<string>(type: "NVARCHAR(50)", nullable: false)
                 },
                 constraints: table =>
                 {

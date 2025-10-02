@@ -20,7 +20,7 @@ namespace EF_Core.Data.Configurations
                    .UseIdentityColumn(1, 1);
 
             builder.Property(t => t.Name)
-                   .HasColumnName(SqlServerTypes.NVarChar(50));
+                   .HasColumnType(SqlServerTypes.NVarChar(50));
         }
     }
 }
