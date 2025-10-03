@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF_Core.Data.Migrations
 {
     [DbContext(typeof(ItiDbContext))]
-    [Migration("20251003001258_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student)")]
+    [Migration("20251003181100_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student)")]
     partial class _1MRelationshipsTopicCourseDepartmentInstructorDepartmentStudent
     {
         /// <inheritdoc />

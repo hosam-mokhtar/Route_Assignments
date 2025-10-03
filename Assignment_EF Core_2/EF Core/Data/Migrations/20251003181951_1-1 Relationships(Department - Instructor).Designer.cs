@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF_Core.Data.Migrations
 {
     [DbContext(typeof(ItiDbContext))]
-    [Migration("20251003004648_1-1 Relationships(Department - Instructor)")]
+    [Migration("20251003181951_1-1 Relationships(Department - Instructor)")]
     partial class _11RelationshipsDepartmentInstructor
     {
         /// <inheritdoc />
@@ -92,11 +92,17 @@ namespace EF_Core.Data.Migrations
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("getdate()");
 
+                    b.Property<int>("ManagerId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("NVARCHAR(50)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ManagerId")
+                        .IsUnique();
 
                     b.ToTable("Department");
                 });
@@ -123,9 +129,6 @@ namespace EF_Core.Data.Migrations
                     b.Property<int>("HourRate")
                         .HasColumnType("int");
 
-                    b.Property<int?>("ManagerId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("NVARCHAR(30)");
@@ -136,10 +139,6 @@ namespace EF_Core.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("DepartmentId");
-
-                    b.HasIndex("ManagerId")
-                        .IsUnique()
-                        .HasFilter("[ManagerId] IS NOT NULL");
 
                     b.ToTable("Instructor");
                 });
@@ -246,6 +245,17 @@ namespace EF_Core.Data.Migrations
                     b.Navigation("Instructor");
                 });
 
+            modelBuilder.Entity("EF_Core.Data.Models.Department", b =>
+                {
+                    b.HasOne("EF_Core.Data.Models.Instructor", "Manager")
+                        .WithOne("DepartmentToManage")
+                        .HasForeignKey("EF_Core.Data.Models.Department", "ManagerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Manager");
+                });
+
             modelBuilder.Entity("EF_Core.Data.Models.Instructor", b =>
                 {
                     b.HasOne("EF_Core.Data.Models.Department", "Department")
@@ -254,15 +264,7 @@ namespace EF_Core.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EF_Core.Data.Models.Department", "DepartmentToManage")
-                        .WithOne("Manager")
-                        .HasForeignKey("EF_Core.Data.Models.Instructor", "ManagerId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
                     b.Navigation("Department");
-
-                    b.Navigation("DepartmentToManage");
                 });
 
             modelBuilder.Entity("EF_Core.Data.Models.Student", b =>
@@ -299,10 +301,13 @@ namespace EF_Core.Data.Migrations
                 {
                     b.Navigation("Instructors");
 
-                    b.Navigation("Manager")
-                        .IsRequired();
-
                     b.Navigation("Students");
+                });
+
+            modelBuilder.Entity("EF_Core.Data.Models.Instructor", b =>
+                {
+                    b.Navigation("DepartmentToManage")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("EF_Core.Data.Models.Topic", b =>

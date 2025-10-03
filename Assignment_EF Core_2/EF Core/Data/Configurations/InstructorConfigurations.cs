@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using EF_Core.Data.Models;
@@ -30,7 +31,8 @@ namespace EF_Core.Data.Configurations
             builder.HasOne(i => i.Department)
                    .WithMany(d => d.Instructors)
                    .IsRequired()
-                   .HasForeignKey(i => i.DepartmentId);
+                   .HasForeignKey(i => i.DepartmentId)
+                   .OnDelete(DeleteBehavior.Cascade);
 
             builder.Property(i => i.DepartmentId)
                    .HasColumnName("Dept_ID");
@@ -40,9 +42,10 @@ namespace EF_Core.Data.Configurations
             builder.HasOne(i => i.DepartmentToManage)
                    .WithOne(d => d.Manager)
                    .IsRequired()
-                   .HasForeignKey<Instructor>(d => d.ManagerId)
+                   .HasForeignKey<Department>(i => i.ManagerId)
                    .OnDelete(DeleteBehavior.Restrict);
             #endregion
+
         }
     }
 }

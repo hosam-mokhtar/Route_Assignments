@@ -33,20 +33,6 @@ namespace EF_Core.Data.Configurations
                    .HasForeignKey(s => s.DepartmentId);
             #endregion
 
-            #region (1 - M) (Department - Instructors) Relationship
-            builder.HasMany(d => d.Instructors)
-                   .WithOne(i => i.Department)
-                   .IsRequired()
-                   .HasForeignKey(i => i.DepartmentId);
-            #endregion
-
-            #region (1 - 1) (Department - Instructor) Relationship
-            builder.HasOne(d => d.Manager)
-                   .WithOne(i => i.DepartmentToManage)
-                   .IsRequired()
-                   .HasForeignKey<Instructor>(d => d.ManagerId)
-                   .OnDelete(DeleteBehavior.Restrict);
-            #endregion
         }
 }
 }

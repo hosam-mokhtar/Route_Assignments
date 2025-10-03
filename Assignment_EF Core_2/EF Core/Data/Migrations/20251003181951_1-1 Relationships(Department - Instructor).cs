@@ -12,22 +12,22 @@ namespace EF_Core.Data.Migrations
         {
             migrationBuilder.AddColumn<int>(
                 name: "ManagerId",
-                table: "Instructor",
+                table: "Department",
                 type: "int",
-                nullable: true);
+                nullable: false,
+                defaultValue: 0);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Instructor_ManagerId",
-                table: "Instructor",
+                name: "IX_Department_ManagerId",
+                table: "Department",
                 column: "ManagerId",
-                unique: true,
-                filter: "[ManagerId] IS NOT NULL");
+                unique: true);
 
             migrationBuilder.AddForeignKey(
-                name: "FK_Instructor_Department_ManagerId",
-                table: "Instructor",
+                name: "FK_Department_Instructor_ManagerId",
+                table: "Department",
                 column: "ManagerId",
-                principalTable: "Department",
+                principalTable: "Instructor",
                 principalColumn: "ID",
                 onDelete: ReferentialAction.Restrict);
         }
@@ -36,16 +36,16 @@ namespace EF_Core.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
-                name: "FK_Instructor_Department_ManagerId",
-                table: "Instructor");
+                name: "FK_Department_Instructor_ManagerId",
+                table: "Department");
 
             migrationBuilder.DropIndex(
-                name: "IX_Instructor_ManagerId",
-                table: "Instructor");
+                name: "IX_Department_ManagerId",
+                table: "Department");
 
             migrationBuilder.DropColumn(
                 name: "ManagerId",
-                table: "Instructor");
+                table: "Department");
         }
     }
 }

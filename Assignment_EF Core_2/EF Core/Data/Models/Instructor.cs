@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace EF_Core.Data.Models
 {
@@ -25,9 +26,10 @@ namespace EF_Core.Data.Models
         public int DepartmentId { get; set; }
         public Department Department { get; set; }
         #endregion
+
         #region (1 - 1) (Department - Instructor) Relationship
-        public int? ManagerId { get; set; }
         public Department DepartmentToManage { get; set; }
         #endregion
+
     }
 }

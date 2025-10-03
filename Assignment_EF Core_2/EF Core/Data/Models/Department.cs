@@ -27,6 +27,7 @@ namespace EF_Core.Data.Models
         #endregion
 
         #region (1 - 1) (Department - Instructor) Relationship
+        public int ManagerId { get; set; }
         public Instructor Manager { get; set; }
         #endregion
 
