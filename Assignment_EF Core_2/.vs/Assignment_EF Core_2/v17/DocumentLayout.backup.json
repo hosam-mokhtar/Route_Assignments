@@ -1,10 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Route\\Assignment_EF Core_2\\",
+  "WorkspaceRootPath": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|d:\\route\\assignment_ef core_2\\ef core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|solutionrelative:ef core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181951_1-1 Relationships(Department - Instructor).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF Core\\Data\\Migrations\\20251003181951_1-1 Relationships(Department - Instructor).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|d:\\route\\route_assignments\\assignment_ef core_2\\ef core\\data\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|solutionrelative:ef core\\data\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|d:\\route\\route_assignments\\assignment_ef core_2\\ef core\\data\\configurations\\instructorconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|solutionrelative:ef core\\data\\configurations\\instructorconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181100_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF Core\\Data\\Migrations\\20251003181100_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181126_1-1 Relationships(Department - Instructor).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF Core\\Data\\Migrations\\20251003181126_1-1 Relationships(Department - Instructor).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|d:\\route\\route_assignments\\assignment_ef core_2\\ef core\\data\\configurations\\departmentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|solutionrelative:ef core\\data\\configurations\\departmentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181255_1-1 Relationships(Department - Instructor).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF Core\\Data\\Migrations\\20251003181255_1-1 Relationships(Department - Instructor).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|d:\\route\\route_assignments\\assignment_ef core_2\\ef core\\data\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|solutionrelative:ef core\\data\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|d:\\route\\route_assignments\\assignment_ef core_2\\ef core\\data\\configurations\\studentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|solutionrelative:ef core\\data\\configurations\\studentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003004435_1-1 Relationships(Department - Instructor).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF Core\\Data\\Migrations\\20251003004435_1-1 Relationships(Department - Instructor).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|d:\\route\\route_assignments\\assignment_ef core_2\\ef core\\data\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|solutionrelative:ef core\\data\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003001105_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF Core\\Data\\Migrations\\20251003001105_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|d:\\route\\route_assignments\\assignment_ef core_2\\ef core\\data\\configurations\\courseconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|solutionrelative:ef core\\data\\configurations\\courseconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|d:\\route\\route_assignments\\assignment_ef core_2\\ef core\\data\\configurations\\topicconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|solutionrelative:ef core\\data\\configurations\\topicconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|d:\\route\\route_assignments\\assignment_ef core_2\\ef core\\data\\migrations\\20251002232317_initialcreateiti3db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F5894C-6BFC-4A50-9D10-4A83C8BE3372}|EF Core\\EF Core.csproj|solutionrelative:ef core\\data\\migrations\\20251002232317_initialcreateiti3db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +75,191 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Route\\Assignment_EF Core_2\\EF Core\\Program.cs",
-              "RelativeDocumentMoniker": "EF Core\\Program.cs",
-              "ToolTip": "D:\\Route\\Assignment_EF Core_2\\EF Core\\Program.cs",
-              "RelativeToolTip": "EF Core\\Program.cs",
+              "Title": "20251003181951_1-1 Relationships(Department - Instructor).cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181951_1-1 Relationships(Department - Instructor).cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Migrations\\20251003181951_1-1 Relationships(Department - Instructor).cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181951_1-1 Relationships(Department - Instructor).cs",
+              "RelativeToolTip": "EF Core\\Data\\Migrations\\20251003181951_1-1 Relationships(Department - Instructor).cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T18:19:51.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251003181255_1-1 Relationships(Department - Instructor).cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181255_1-1 Relationships(Department - Instructor).cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Migrations\\20251003181255_1-1 Relationships(Department - Instructor).cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181255_1-1 Relationships(Department - Instructor).cs",
+              "RelativeToolTip": "EF Core\\Data\\Migrations\\20251003181255_1-1 Relationships(Department - Instructor).cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T18:12:55.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20251003181126_1-1 Relationships(Department - Instructor).cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181126_1-1 Relationships(Department - Instructor).cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Migrations\\20251003181126_1-1 Relationships(Department - Instructor).cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181126_1-1 Relationships(Department - Instructor).cs",
+              "RelativeToolTip": "EF Core\\Data\\Migrations\\20251003181126_1-1 Relationships(Department - Instructor).cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T18:11:26.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20251003181100_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181100_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Migrations\\20251003181100_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003181100_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs",
+              "RelativeToolTip": "EF Core\\Data\\Migrations\\20251003181100_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T18:11:00.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Models\\Department.cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Models\\Department.cs",
+              "RelativeToolTip": "EF Core\\Data\\Models\\Department.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T23:11:42.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Models\\Instructor.cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Models\\Instructor.cs",
+              "RelativeToolTip": "EF Core\\Data\\Models\\Instructor.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T23:10:16.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstructorConfigurations.cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Configurations\\InstructorConfigurations.cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Configurations\\InstructorConfigurations.cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Configurations\\InstructorConfigurations.cs",
+              "RelativeToolTip": "EF Core\\Data\\Configurations\\InstructorConfigurations.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:40:20.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentConfigurations.cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "RelativeToolTip": "EF Core\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:39:54.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentConfigurations.cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Configurations\\StudentConfigurations.cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Configurations\\StudentConfigurations.cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Configurations\\StudentConfigurations.cs",
+              "RelativeToolTip": "EF Core\\Data\\Configurations\\StudentConfigurations.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIAwwCMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:41:09.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20251003004435_1-1 Relationships(Department - Instructor).cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003004435_1-1 Relationships(Department - Instructor).cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Migrations\\20251003004435_1-1 Relationships(Department - Instructor).cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003004435_1-1 Relationships(Department - Instructor).cs",
+              "RelativeToolTip": "EF Core\\Data\\Migrations\\20251003004435_1-1 Relationships(Department - Instructor).cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T00:44:36.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Models\\Topic.cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Models\\Topic.cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Models\\Topic.cs",
+              "RelativeToolTip": "EF Core\\Data\\Models\\Topic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T23:11:38.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20251003001105_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003001105_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Migrations\\20251003001105_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251003001105_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs",
+              "RelativeToolTip": "EF Core\\Data\\Migrations\\20251003001105_1-M Relationships(Topic - Course)(Department - Instructor)(Department - Student).cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T09:20:06.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T00:11:05.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseConfigurations.cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Configurations\\CourseConfigurations.cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Configurations\\CourseConfigurations.cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Configurations\\CourseConfigurations.cs",
+              "RelativeToolTip": "EF Core\\Data\\Configurations\\CourseConfigurations.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:34:07.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TopicConfigurations.cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Configurations\\TopicConfigurations.cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Configurations\\TopicConfigurations.cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Configurations\\TopicConfigurations.cs",
+              "RelativeToolTip": "EF Core\\Data\\Configurations\\TopicConfigurations.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:42:20.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20251002232317_InitialCreateITI3DB.cs",
+              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251002232317_InitialCreateITI3DB.cs",
+              "RelativeDocumentMoniker": "EF Core\\Data\\Migrations\\20251002232317_InitialCreateITI3DB.cs",
+              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_EF Core_2\\EF Core\\Data\\Migrations\\20251002232317_InitialCreateITI3DB.cs",
+              "RelativeToolTip": "EF Core\\Data\\Migrations\\20251002232317_InitialCreateITI3DB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T23:23:17.554Z"
             }
           ]
         }
