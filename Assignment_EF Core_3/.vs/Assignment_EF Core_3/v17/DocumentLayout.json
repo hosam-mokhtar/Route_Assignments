@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Route\\Assignment_EF Core_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA744D2-21D7-4A25-A222-AEC9D06C7B66}|EF Core\\EF Core.csproj|d:\\route\\assignment_ef core_3\\ef core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA744D2-21D7-4A25-A222-AEC9D06C7B66}|EF Core\\EF Core.csproj|solutionrelative:ef core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_EF Core_3\\EF Core\\Program.cs",
+              "RelativeDocumentMoniker": "EF Core\\Program.cs",
+              "ToolTip": "D:\\Route\\Assignment_EF Core_3\\EF Core\\Program.cs",
+              "RelativeToolTip": "EF Core\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T16:15:00.664Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

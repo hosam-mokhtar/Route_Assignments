@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Route\\OOP\\Assignment_EF Core_1\\EF Core\\EF Core.csproj": {}
+    "D:\\Route\\Route_Assignments\\Assignment_EF Core_1\\EF Core\\EF Core.csproj": {}
   },
   "projects": {
-    "D:\\Route\\OOP\\Assignment_EF Core_1\\EF Core\\EF Core.csproj": {
+    "D:\\Route\\Route_Assignments\\Assignment_EF Core_1\\EF Core\\EF Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Route\\OOP\\Assignment_EF Core_1\\EF Core\\EF Core.csproj",
+        "projectUniqueName": "D:\\Route\\Route_Assignments\\Assignment_EF Core_1\\EF Core\\EF Core.csproj",
         "projectName": "EF Core",
-        "projectPath": "D:\\Route\\OOP\\Assignment_EF Core_1\\EF Core\\EF Core.csproj",
+        "projectPath": "D:\\Route\\Route_Assignments\\Assignment_EF Core_1\\EF Core\\EF Core.csproj",
         "packagesPath": "C:\\Users\\20101\\.nuget\\packages\\",
-        "outputPath": "D:\\Route\\OOP\\Assignment_EF Core_1\\EF Core\\obj\\",
+        "outputPath": "D:\\Route\\Route_Assignments\\Assignment_EF Core_1\\EF Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,7 +25,8 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -43,11 +44,23 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

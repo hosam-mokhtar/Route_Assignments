@@ -1,0 +1,56 @@
+﻿ <!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <!-- in main Function()  app.UseStaticFiles(); -->
+    <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    @* OR *@
+    @*     
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    *@
+    @* OR *@
+    @*    
+    Drag and Drop 
+    <link href="d:\route\asp.net core empty_mvc\mvc\lib\bootstrap\css\bootstrap.css" rel="stylesheet" />
+	<link href="d:\route\asp.net core empty_mvc\mvc\lib\bootstrap\css\bootstrap.min.css" rel="stylesheet" />
+    <a href="d:\route\asp.net core empty_mvc\mvc\lib\bootstrap\css\bootstrap.css.map">d:\route\asp.net core empty_mvc\mvc\lib\bootstrap\css\bootstrap.css.map</a>
+	<a href="d:\route\asp.net core empty_mvc\mvc\lib\bootstrap\css\bootstrap.min.css.map">d:\route\asp.net core empty_mvc\mvc\lib\bootstrap\css\bootstrap.min.css.map</a>
+*@
+</head>
+
+<body>
+
+    @* Start Header *@
+    <header>
+        <center>
+            <nav class="mt-5">
+                <a href="/Home/Index" class="btn btn-primary m-2">Home</a>
+                <a href="/Home/Privacy" class="btn btn-warning m-2">Privacy</a>
+                <a href="/Home/AboutUs" class="btn btn-success m-2">About Us</a>
+                <a href="/Home/ContactUs" class="btn btn-secondary m-2">Contact Us</a>
+                <a href="/Account/SignIn" class="btn btn-info m-2">Sign In</a>
+                <a href="/Account/Register" class="btn btn-danger m-2">Register</a>
+            </nav>
+        </center>
+    </header>
+    @* End Header *@ 
+
+    <div>
+        @RenderBody()
+    </div>
+
+    @* Start Footer *@
+    <footer>
+        <center>
+            <div class="mt-2">
+                <p> CopyRights &copy; Route @DateTime.Now.Year </p>
+            </div>
+        </center>
+    </footer>
+    @* End Footer *@
+
+</body>
+</html>
