@@ -32,7 +32,7 @@ namespace EF_Core.Data.Configurations
                    .WithMany(d => d.Instructors)
                    .IsRequired()
                    .HasForeignKey(i => i.DepartmentId)
-                   .OnDelete(DeleteBehavior.Cascade);
+                   .OnDelete(DeleteBehavior.Restrict);
 
             builder.Property(i => i.DepartmentId)
                    .HasColumnName("Dept_ID");
