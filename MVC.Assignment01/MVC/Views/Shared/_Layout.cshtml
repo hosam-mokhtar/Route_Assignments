@@ -27,12 +27,20 @@
     <header>
         <center>
             <nav class="mt-5">
-                <a href="/Home/Index" class="btn btn-primary m-2">Home</a>
+                @*Tag Helpers*@
+                <a asp-controller="Home" asp-action="Index" class="btn btn-primary m-2">Home</a>
+                <a asp-controller="Home" asp-action="Privacy" class="btn btn-warning m-2">Privacy</a>
+                <a asp-controller="Home" asp-action="AboutUs" class="btn btn-success m-2">AboutUs</a>
+                <a asp-controller="Home" asp-action="ContactUs" class="btn btn-secondary m-2">ContactUs</a>
+                <a asp-controller="Account" asp-action="SignIn" class="btn btn-info m-2">SignIn</a>
+                <a asp-controller="Account" asp-action="Register" class="btn btn-danger m-2">Register</a>
+
+@*              <a href="/Home/Index" class="btn btn-primary m-2">Home</a>
                 <a href="/Home/Privacy" class="btn btn-warning m-2">Privacy</a>
                 <a href="/Home/AboutUs" class="btn btn-success m-2">About Us</a>
                 <a href="/Home/ContactUs" class="btn btn-secondary m-2">Contact Us</a>
                 <a href="/Account/SignIn" class="btn btn-info m-2">Sign In</a>
-                <a href="/Account/Register" class="btn btn-danger m-2">Register</a>
+                <a href="/Account/Register" class="btn btn-danger m-2">Register</a> *@
             </nav>
         </center>
     </header>
