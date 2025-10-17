@@ -1,3 +1,9 @@
+using Assignment.BLL;
+using Assignment.BLL.Services;
+using Assignment.DAL.Data.Contexts;
+using Assignment.DAL.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 namespace Assignment.PL
 {
     public class Program
@@ -6,8 +12,30 @@ namespace Assignment.PL
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            #region Configure Services : Add services to the DI container.
+
             builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped<ApplicationDbContext>(); //Register Service
+            //Give CLR Permission to Inject This Service, If needed
+
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                //var conString = builder.Configuration["ConnectionStrings:DefaultConnection"];
+                //or syntax
+                //var conString = builder.Configuration.GetSection("ConnectionStrings")["DefaultConnection"];
+                //or syntax
+                var conString = builder.Configuration.GetConnectionString("DefaultConnection");
+                options.UseSqlServer(conString);
+            }
+            );
+
+
+            //builder.Services.AddScoped<DepartmentRepository>();      //No Delvelop against interface
+            builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+            builder.Services.AddScoped<IDepartmentService, DepartmentService>();
+
+
+            #endregion
 
             var app = builder.Build();
 
@@ -24,7 +52,8 @@ namespace Assignment.PL
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthentication();   
+            //app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
