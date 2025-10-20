@@ -1,0 +1,31 @@
+﻿@*    @model UpdateDepartmentDto *@
+@model DepartmentEditViewModel
+
+<div class="row justify-content-center align-content-center mt-3">
+    <h1 class="col-8 my-4">Edit Department</h1>
+    <form method="post" asp-controller="Departments" asp-action="Edit" class="col-8">
+        <div class="form-group mb-3">
+            <label class="form-label" asp-for="Code"></label>
+            <input asp-for="Code" class="form-control" />
+            <span asp-validation-for="Code" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" asp-for="Description"></label>
+            <textarea class="form-control" asp-for="Description"></textarea>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" asp-for="DateOfCreation"></label>
+            <input asp-for="DateOfCreation" class="form-control" />
+        </div>
+        <div class="mt-4 m-auto">
+            <input class="btn btn-success" type="submit" value="Edit" />
+            <a asp-controller="Departments" asp-action="Index" class="btn btn-outline-dark">Back to list</a>
+        </div>
+    </form>
+</div>
+
