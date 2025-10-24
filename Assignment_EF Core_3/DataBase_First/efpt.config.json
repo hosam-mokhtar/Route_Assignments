@@ -1,0 +1,142 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "ITIDbContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "MinimumProductVersion": "2.6.1186",
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "DataBase_First",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Course]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Department]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Employees]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[empoo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Ins_Course]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Instructor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Stud_Course]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Student]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StudentAudit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StudentWithAddressAlex]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Topic]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[manager_topics]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[student_grades]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[StudentsAge]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[StudentsDataInCourses]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[StudentsInDepartments]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[V1]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VCairoStudents]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VStudentsInDepartment]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[getNumberOfStudentPerDepartment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_GetDataOfStudentById]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_GetStudentDataByStudentAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateNewEmployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SpDeleteTopicbyId]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": true,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": true,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}
