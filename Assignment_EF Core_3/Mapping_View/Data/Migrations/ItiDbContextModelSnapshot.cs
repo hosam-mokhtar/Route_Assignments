@@ -51,7 +51,7 @@ namespace Efcore1.Data.Migrations
 
                     b.HasIndex("TopicId");
 
-                    b.ToTable("Course");
+                    b.ToTable("Course", (string)null);
                 });
 
             modelBuilder.Entity("Mapping_View.Data.Models.CourseInstructor", b =>
@@ -101,7 +101,7 @@ namespace Efcore1.Data.Migrations
                     b.HasIndex("ManagerId")
                         .IsUnique();
 
-                    b.ToTable("Department");
+                    b.ToTable("Department", (string)null);
                 });
 
             modelBuilder.Entity("Mapping_View.Data.Models.Instructor", b =>
@@ -137,7 +137,7 @@ namespace Efcore1.Data.Migrations
 
                     b.HasIndex("DepartmentId");
 
-                    b.ToTable("Instructor");
+                    b.ToTable("Instructor", (string)null);
                 });
 
             modelBuilder.Entity("Mapping_View.Data.Models.Student", b =>
@@ -173,7 +173,7 @@ namespace Efcore1.Data.Migrations
 
                     b.HasIndex("DepartmentId");
 
-                    b.ToTable("Student");
+                    b.ToTable("Student", (string)null);
                 });
 
             modelBuilder.Entity("Mapping_View.Data.Models.StudentCourse", b =>
@@ -211,7 +211,7 @@ namespace Efcore1.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Topic");
+                    b.ToTable("Topic", (string)null);
                 });
 
             modelBuilder.Entity("Mapping_View.Data.Models.Views.DepartmentsAndStudents", b =>

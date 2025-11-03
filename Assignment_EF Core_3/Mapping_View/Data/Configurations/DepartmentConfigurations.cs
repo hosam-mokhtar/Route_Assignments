@@ -26,12 +26,12 @@ namespace Mapping_View.Data.Configurations
                    .HasDefaultValueSql("getdate()");     // Sql Server Provider will assign Value
 
 
-            #region (1 - M) (Department - Student) Relationship
-            builder.HasMany(d => d.Students)
-                   .WithOne(s => s.Department)
-                   .IsRequired(false)
-                   .HasForeignKey(s => s.DepartmentId);
-            #endregion
+            //#region (1 - M) (Department - Student) Relationship
+            //builder.HasMany(d => d.Students)
+            //       .WithOne(s => s.Department)
+            //       .IsRequired()
+            //       .HasForeignKey(s => s.DepartmentId);
+            //#endregion
 
         }
     }
