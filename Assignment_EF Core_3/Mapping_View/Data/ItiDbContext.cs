@@ -15,6 +15,8 @@ namespace Mapping_View.Data
     {
         public DbSet<StudentCourse> StudentsCourses { get; set; }
         public DbSet<CourseInstructor> CoursesInstructors { get; set; }
+
+        //View mapping
         public DbSet<DepartmentsAndStudents> DepartmentsAndStudents { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -37,7 +39,11 @@ namespace Mapping_View.Data
 
             #region Configuration Classes 
 
-            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            //modelBuilder.ApplyConfigurationsFromAssembly(typeof(ProjectReference).Assembly);
+            //or
+            //modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            //or
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ItiDbContext).Assembly);
 
             #endregion
         }

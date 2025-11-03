@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Route\\Assignment_EF Core_3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C04726E-0C4B-489C-8603-69DFC93FA9C2}|DataBase_First\\DataBase_First.csproj|d:\\route\\assignment_ef core_3\\database_first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C04726E-0C4B-489C-8603-69DFC93FA9C2}|DataBase_First\\DataBase_First.csproj|solutionrelative:database_first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_EF Core_3\\DataBase_First\\Program.cs",
+              "RelativeDocumentMoniker": "DataBase_First\\Program.cs",
+              "ToolTip": "D:\\Route\\Assignment_EF Core_3\\DataBase_First\\Program.cs",
+              "RelativeToolTip": "DataBase_First\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:10:02.882Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
