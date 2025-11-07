@@ -10,4 +10,8 @@
     <ProjectReference Include="..\..\Core\ServiceAbstraction.Layer\ServiceAbstraction.Layer.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	
 </Project>
