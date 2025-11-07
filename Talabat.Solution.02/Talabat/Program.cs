@@ -1,8 +1,13 @@
 
 using Domain.Layer.Contracts;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Persistence.Layer;
 using Persistence.Layer.Data;
+using Persistence.Layer.Repositories;
+using Service.Layer;
+using Service.Layer.Mapping_Profiles;
+using ServiceAbstraction.Layer;
 
 namespace Talabat
 {
@@ -27,6 +32,23 @@ namespace Talabat
             });
 
             builder.Services.AddScoped<IDataSeeding,DataSeeding>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            #region Mapping Register
+
+            //builder.Services.AddAutoMapper(p => p.AddProfile(new ProductProfile()));
+            //builder.Services.AddAutoMapper(p => p.AddProfiles(new ProductProfile(), ));
+
+            //OR Dynamic 
+            //Version AutoMapper 14.0.0
+            //builder.Services.AddAutoMapper(typeof(ServiceLayerAssemblyReference).Assembly);
+
+            //Latest Version AutoMapper 15.1.0
+            builder.Services.AddAutoMapper((x) => { }, typeof(ServiceLayerAssemblyReference).Assembly);
+
+            #endregion
+
+            builder.Services.AddScoped<IServiceManager, ServiceManager>();
 
             #endregion
 
@@ -37,11 +59,12 @@ namespace Talabat
             using var scope = app.Services.CreateScope(); 
             var seedObj = scope.ServiceProvider.GetRequiredService<IDataSeeding>();
             await seedObj.DataSeedAsync();
-            
+
             #endregion
 
 
-            // Configure the HTTP request pipeline.
+            #region Configure the HTTP request pipeline.
+
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -52,10 +75,12 @@ namespace Talabat
 
             app.UseAuthorization();
 
-
+            app.UseStaticFiles();
             app.MapControllers();
 
             app.Run();
+
+            #endregion
         }
     }
 }

@@ -19,4 +19,8 @@
     <ProjectReference Include="..\Infrastructure\Presentation.Layer\Presentation.Layer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\products\" />
+  </ItemGroup>
+
 </Project>
