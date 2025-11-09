@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\Route\\Assignment_EF Core_3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|d:\\route\\assignment_ef core_3\\mapping_view\\data\\models\\views\\departmentsandstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|solutionrelative:mapping_view\\data\\models\\views\\departmentsandstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|d:\\route\\assignment_ef core_3\\mapping_view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|solutionrelative:mapping_view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C04726E-0C4B-489C-8603-69DFC93FA9C2}|DataBase_First\\DataBase_First.csproj|d:\\route\\assignment_ef core_3\\database_first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C04726E-0C4B-489C-8603-69DFC93FA9C2}|DataBase_First\\DataBase_First.csproj|solutionrelative:database_first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|d:\\route\\assignment_ef core_3\\mapping_view\\data\\migrations\\20251024161410_viewdepartmentsandstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|solutionrelative:mapping_view\\data\\migrations\\20251024161410_viewdepartmentsandstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|d:\\route\\assignment_ef core_3\\mapping_view\\data\\migrations\\itidbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|solutionrelative:mapping_view\\data\\migrations\\itidbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|d:\\route\\assignment_ef core_3\\mapping_view\\data\\itidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|solutionrelative:mapping_view\\data\\itidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|d:\\route\\assignment_ef core_3\\mapping_view\\mapping_view.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6963513C-CD9B-4E62-ABC8-56D0203E3E4A}|Mapping_View\\Mapping_View.csproj|solutionrelative:mapping_view\\mapping_view.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +38,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItiDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Data\\Migrations\\ItiDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Mapping_View\\Data\\Migrations\\ItiDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Data\\Migrations\\ItiDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Mapping_View\\Data\\Migrations\\ItiDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:04:45.245Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DepartmentsAndStudents.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Data\\Models\\Views\\DepartmentsAndStudents.cs",
+              "RelativeDocumentMoniker": "Mapping_View\\Data\\Models\\Views\\DepartmentsAndStudents.cs",
+              "ToolTip": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Data\\Models\\Views\\DepartmentsAndStudents.cs",
+              "RelativeToolTip": "Mapping_View\\Data\\Models\\Views\\DepartmentsAndStudents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:02:37.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20251024161410_ViewDepartmentsAndStudents.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Data\\Migrations\\20251024161410_ViewDepartmentsAndStudents.cs",
+              "RelativeDocumentMoniker": "Mapping_View\\Data\\Migrations\\20251024161410_ViewDepartmentsAndStudents.cs",
+              "ToolTip": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Data\\Migrations\\20251024161410_ViewDepartmentsAndStudents.cs",
+              "RelativeToolTip": "Mapping_View\\Data\\Migrations\\20251024161410_ViewDepartmentsAndStudents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T19:48:08.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItiDbContext.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Data\\ItiDbContext.cs",
+              "RelativeDocumentMoniker": "Mapping_View\\Data\\ItiDbContext.cs",
+              "ToolTip": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Data\\ItiDbContext.cs",
+              "RelativeToolTip": "Mapping_View\\Data\\ItiDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T19:45:28.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Mapping_View.csproj",
+              "DocumentMoniker": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Mapping_View.csproj",
+              "RelativeDocumentMoniker": "Mapping_View\\Mapping_View.csproj",
+              "ToolTip": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Mapping_View.csproj",
+              "RelativeToolTip": "Mapping_View\\Mapping_View.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-06T19:16:50.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Program.cs",
+              "RelativeDocumentMoniker": "Mapping_View\\Program.cs",
+              "ToolTip": "D:\\Route\\Assignment_EF Core_3\\Mapping_View\\Program.cs",
+              "RelativeToolTip": "Mapping_View\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA+wCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:19:42.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Route\\Assignment_EF Core_3\\DataBase_First\\Program.cs",
               "RelativeDocumentMoniker": "DataBase_First\\Program.cs",
@@ -26,8 +124,7 @@
               "RelativeToolTip": "DataBase_First\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T03:10:02.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T03:10:02.882Z"
             }
           ]
         }
