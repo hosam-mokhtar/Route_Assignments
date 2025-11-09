@@ -8,7 +8,7 @@ namespace Mapping_View.Data.Models.Views
 {
     public class DepartmentsAndStudents
     {
-        public int Dept_ID { get; set; }
+        public int Id { get; set; }
         public string DepartmentName { get; set; }
         public string? StudentName { get; set; }
     }
