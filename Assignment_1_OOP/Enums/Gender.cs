@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment_1_OOP
+namespace Assignment_1_OOP.Enums
 {
     internal enum Gender
     {

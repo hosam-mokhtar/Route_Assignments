@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Assignment_1_OOP.Enums;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment_1_OOP

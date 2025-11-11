@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment_1_OOP
+namespace Assignment_1_OOP.Enums
 {
-    internal enum Season
+    internal enum Colors
     {
-        Spring,
-        Summer,
-        Autumn,
-        Winter
+        Red,
+        Green,
+        Blue
     }
 }
