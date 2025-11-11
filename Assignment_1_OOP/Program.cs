@@ -9,6 +9,7 @@ using System.Reflection;
 using System.Xml.Linq;
 using System.Diagnostics.Metrics;
 using System.Formats.Asn1;
+using Assignment_1_OOP.Enums;
 
 namespace Assignment_1_OOP
 {
