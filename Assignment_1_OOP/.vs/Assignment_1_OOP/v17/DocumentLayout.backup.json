@@ -1,45 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\",
+  "WorkspaceRootPath": "D:\\Route\\Assignment_1_OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\route_assignments\\assignment_1_oop\\securitylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:securitylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\assignment_1_oop\\enums\\weekdays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:enums\\weekdays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\route_assignments\\assignment_1_oop\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\assignment_1_oop\\enums\\securitylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:enums\\securitylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\route_assignments\\assignment_1_oop\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\assignment_1_oop\\enums\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:enums\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\route_assignments\\assignment_1_oop\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\assignment_1_oop\\enums\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:enums\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\route_assignments\\assignment_1_oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\assignment_1_oop\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\route_assignments\\assignment_1_oop\\hiringdate .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:hiringdate .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-<<<<<<< Updated upstream
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\route_assignments\\assignment_1_oop\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\route_assignments\\assignment_1_oop\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\route_assignments\\assignment_1_oop\\securitylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:securitylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
->>>>>>> Stashed changes
+      "AbsoluteMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|d:\\route\\assignment_1_oop\\enums\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A077CC-4629-4F24-8EAD-C31E85A4EEE8}|Assignment_1_OOP.csproj|solutionrelative:enums\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,189 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
           "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Colors.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_1_OOP\\Enums\\Colors.cs",
+              "RelativeDocumentMoniker": "Enums\\Colors.cs",
+              "ToolTip": "D:\\Route\\Assignment_1_OOP\\Enums\\Colors.cs",
+              "RelativeToolTip": "Enums\\Colors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:55:59.347Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-=======
-          "SelectedChildIndex": 0,
-          "Children": [
+              "Title": "Gender.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_1_OOP\\Enums\\Gender.cs",
+              "RelativeDocumentMoniker": "Enums\\Gender.cs",
+              "ToolTip": "D:\\Route\\Assignment_1_OOP\\Enums\\Gender.cs",
+              "RelativeToolTip": "Enums\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:55:52.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Permissions.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_1_OOP\\Enums\\Permissions.cs",
+              "RelativeDocumentMoniker": "Enums\\Permissions.cs",
+              "ToolTip": "D:\\Route\\Assignment_1_OOP\\Enums\\Permissions.cs",
+              "RelativeToolTip": "Enums\\Permissions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:55:45.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecurityLevel.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_1_OOP\\Enums\\SecurityLevel.cs",
+              "RelativeDocumentMoniker": "Enums\\SecurityLevel.cs",
+              "ToolTip": "D:\\Route\\Assignment_1_OOP\\Enums\\SecurityLevel.cs",
+              "RelativeToolTip": "Enums\\SecurityLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:55:21.669Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
->>>>>>> Stashed changes
-              "Title": "SecurityLevel.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\SecurityLevel.cs",
-              "RelativeDocumentMoniker": "SecurityLevel.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\SecurityLevel.cs",
-              "RelativeToolTip": "SecurityLevel.cs",
-<<<<<<< Updated upstream
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T00:55:13.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Employee.cs",
-              "RelativeDocumentMoniker": "Employee.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Employee.cs*",
-              "RelativeToolTip": "Employee.cs*",
-              "ViewState": "AgIAACgAAAAAAAAAAAA5wAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:05:32.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Gender.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Gender.cs",
-              "RelativeDocumentMoniker": "Gender.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Gender.cs*",
-              "RelativeToolTip": "Gender.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T00:54:41.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Permissions.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Permissions.cs",
-              "RelativeDocumentMoniker": "Permissions.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Permissions.cs",
-              "RelativeToolTip": "Permissions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T21:02:00.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 3,
-              "Title": "Gender.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Gender.cs",
-              "RelativeDocumentMoniker": "Gender.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Gender.cs",
-              "RelativeToolTip": "Gender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-=======
-              "DocumentIndex": 7,
-              "Title": "Colors.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Colors.cs",
-              "RelativeDocumentMoniker": "Colors.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Colors.cs",
-              "RelativeToolTip": "Colors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T21:01:19.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 1,
-=======
-              "DocumentIndex": 6,
-              "Title": "Season.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Season.cs",
-              "RelativeDocumentMoniker": "Season.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Season.cs",
-              "RelativeToolTip": "Season.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T19:57:29.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "WeekDays.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\WeekDays.cs",
-              "RelativeDocumentMoniker": "WeekDays.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\WeekDays.cs",
-              "RelativeToolTip": "WeekDays.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Route\\Assignment_1_OOP\\Enums\\WeekDays.cs",
+              "RelativeDocumentMoniker": "Enums\\WeekDays.cs",
+              "ToolTip": "D:\\Route\\Assignment_1_OOP\\Enums\\WeekDays.cs",
+              "RelativeToolTip": "Enums\\WeekDays.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T19:55:59.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
->>>>>>> Stashed changes
-              "Title": "HiringDate .cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\HiringDate .cs",
-              "RelativeDocumentMoniker": "HiringDate .cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\HiringDate .cs",
-              "RelativeToolTip": "HiringDate .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:19:21.42Z",
+              "WhenOpened": "2025-11-11T06:55:14.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 2,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Employee.cs",
-              "RelativeDocumentMoniker": "Employee.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Employee.cs",
-              "RelativeToolTip": "Employee.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAswBAAAAAfAAAAAAAAAA==",
+              "Title": "Season.cs",
+              "DocumentMoniker": "D:\\Route\\Assignment_1_OOP\\Enums\\Season.cs",
+              "RelativeDocumentMoniker": "Enums\\Season.cs",
+              "ToolTip": "D:\\Route\\Assignment_1_OOP\\Enums\\Season.cs",
+              "RelativeToolTip": "Enums\\Season.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:05:32.168Z",
-              "EditorCaption": ""
-=======
-              "DocumentIndex": 3,
-              "Title": "Point.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Point.cs",
-              "RelativeDocumentMoniker": "Point.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Point.cs",
-              "RelativeToolTip": "Point.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T13:54:59.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Person.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Person.cs",
-              "RelativeDocumentMoniker": "Person.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Person.cs",
-              "RelativeToolTip": "Person.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T13:08:25.669Z"
->>>>>>> Stashed changes
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Route\\Route_Assignments\\Assignment_1_OOP\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-<<<<<<< Updated upstream
-              "ViewState": "AgIAAIsAAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAH8AAAAAAAAAAAAQwA0AAAABAAAAAAAAAA==",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T13:05:02.583Z"
+              "WhenOpened": "2025-11-11T06:54:44.116Z"
             }
           ]
         }

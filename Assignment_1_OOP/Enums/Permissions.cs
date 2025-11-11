@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment_1_OOP
+namespace Assignment_1_OOP.Enums
 {
-
     [Flags]
-    internal enum SecurityLevel : byte
+    internal enum Permissions : byte
     {
-        Guest,
-        Developer,
-        Secretary,
-        DBA
+        Read = 1,
+        Write = 2,
+        Delete = 4,
+        Execute = 8
     }
 }
