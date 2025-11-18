@@ -1,0 +1,69 @@
+﻿@using Assignment.BLL.DTOs.DepartmentDTOs
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model DepartmentDetailsDto
+
+<h1 class="my-5 w-75"> Department @Model.Name Details</h1>
+
+
+<ul class="nav nav-tabs" id="departmentTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="general-tab" data-bs-toggle="tab" href="#general" role="tab" aria-controls="general" aria-selected="true">General</a>
+    </li>
+    <li class="nav-item" role="presentation">
+        <a class="nav-link" id="administration-tab" data-bs-toggle="tab" href="#administration" role="tab" aria-controls="administration" aria-selected="false">Administration</a>
+    </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+    <!-- General Tab Content -->
+    <div class="tab-pane fade show active p-4 border" id="general" role="tabpanel" aria-labelledby="general-tab">
+
+        <div class="row">
+            <div class="form-group col-6">
+                <label class="col-form-label" asp-for="Code"></label>
+                <input asp-for="Code" class="form-control" readonly />
+            </div>
+            <div class="form-group col-6">
+                <label class="col-form-label" asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" readonly />
+            </div>
+            <div class="form-group col-12">
+                <label class="col-form-label" asp-for="Description"></label>
+                <input asp-for="Description" class="form-control" readonly />
+            </div>
+            <div class="form-group col-12">
+                <label class="col-form-label" asp-for="DateOfCreation"></label>
+                <input asp-for="DateOfCreation" class="form-control" readonly />
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Administration Tab Content -->
+    <div class="tab-pane fade p-4 border" id="administration" role="tabpanel" aria-labelledby="administration-tab">
+        <div class="form-group  col-12">
+            <label class="col-form-label" asp-for="CreatedBy"></label>
+            <input asp-for="CreatedBy" class="form-control" readonly />
+        </div>
+        <div class="form-group  col-12">
+            <label class="col-form-label">CreatedOn</label>
+            <input asp-for="DateOfCreation" class="form-control" readonly />
+        </div>
+        <div class="form-group  col-12">
+            <label class="col-form-label" asp-for="LastModifiedBy"></label>
+            <input asp-for="LastModifiedBy" class="form-control" readonly />
+        </div>
+        <div class="form-group  col-12">
+            <label class="col-form-label" asp-for="LastModifiedOn"></label>
+            <input asp-for="LastModifiedOn" class="form-control" readonly />
+        </div>
+    </div>
+    <div class="mt-4">
+        <!-- asp-controller="Departments" if you don't write => No Any Error occur Because Action in the Same Controller that belong to Current View-->
+        <a asp-controller="Departments" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-success">Edit</a>
+        <a asp-controller="Departments" asp-action="Index" class="btn btn-outline-dark">Back To list</a>
+    </div>
+</div>
