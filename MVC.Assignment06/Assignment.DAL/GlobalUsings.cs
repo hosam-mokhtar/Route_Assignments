@@ -1,0 +1,13 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using Microsoft.EntityFrameworkCore;
+global using Assignment.DAL.Data.Contexts;
+global using Assignment.DAL.Models;
+global using Assignment.DAL.Models.DepartmentModel;
+global using Assignment.DAL.Models.EmployeeModel;
+global using Assignment.DAL.Models.Shared;
+global using Mapping_View.Data;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
