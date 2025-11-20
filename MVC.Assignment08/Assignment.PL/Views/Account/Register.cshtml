@@ -1,0 +1,52 @@
+﻿
+@{
+	ViewData["Title"] = "Register";
+	Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+@model RegisterViewModel
+
+<div class="main-w3layouts wrapper">
+	<div class="main-agileinfo">
+		<div class="agileits-top">
+			<form asp-action="Register" method="post">
+				<div asp-validation-summary="ModelOnly"></div>
+
+
+				<input asp-for="FirstName" placeholder="First Name">
+				<span asp-validation-for="FirstName" class="text-danger"></span>
+				<br />
+
+				<input asp-for="LastName" placeholder="Last Name">
+				<span asp-validation-for="LastName" class="text-danger"></span>
+				<br />
+
+				<input asp-for="UserName" placeholder="User Name">
+				<span asp-validation-for="UserName" class="text-danger"></span>
+				<br />
+
+				<input asp-for="Email" placeholder="Email">
+				<span asp-validation-for="Email" class="text-danger"></span>
+				<br />
+
+				<input asp-for="Password" placeholder="Password">
+				<span asp-validation-for="Password" class="text-danger"></span>
+				<br />
+
+				<input asp-for="ConfirmPassword" placeholder="Confirm Password">
+				<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+				<br />
+
+				<div class="wthree-text">
+					<label class="anim">
+						<input type="checkbox" asp-for="IsAgree" class="checkbox">
+						<span>I Agree To The Terms & Conditions</span>
+					</label>
+					<div class="clear"> </div>
+				</div>
+				<input type="submit" value="SIGNUP">
+			</form>
+			<p> have an Account? <a asp-action="Login"> Login Now!</a></p>
+		</div>
+	</div>
+
+</div>
