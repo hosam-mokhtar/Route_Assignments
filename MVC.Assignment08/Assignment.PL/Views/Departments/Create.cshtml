@@ -1,0 +1,33 @@
+﻿
+@* @model CreatedDepartmentDto *@
+@model DepartmentViewModel
+
+
+<div class="row justify-content-center align-content-center mt-3">
+    <h1 class="col-8 my-4">Create Department</h1>
+
+    <form class="col-8" method="post" asp-controller="Departments" asp-action="Create">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <partial name="PartialViews/CreateEditDepartmentPartialView" />
+
+        <div class="mt-4 m-auto">
+            <input class="btn btn-primary" type="submit" value="Create" />
+            @* use Tag Helpers instead of href="" *@
+            <a class="btn btn-outline-dark" asp-controller="Departments" asp-action="Index">Back to list</a>
+        </div>
+    </form>
+</div>
+
+@section ValidationScripts
+{
+@*jquery.js*@
+@* <script src="~/lib/jquery/dist/jquery.min.js"></script> *@
+
+@*jquery.validate.js*@
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+
+@*jquery.validate.unobtrusive.js*@
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
