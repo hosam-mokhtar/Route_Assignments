@@ -117,10 +117,11 @@ namespace Assignment.PL.Controllers
             if(ModelState.IsValid)
             {
                 var user = _userManager.FindByEmailAsync(model.Email).Result;
+
                 if(user is not null)
                 {
                     //Create Reset Password Link
-                    //BaseUrl/Account/ResetPasswordLink?email=hossammohamedbit@gmail.com
+                    //BaseUrl/Account/ResetPasswordLink?email=xxxxx@gmail.com
                     var token = _userManager.GeneratePasswordResetTokenAsync(user).Result;
                     var resetPasswordLink = Url.Action("ResetPasswordLink", "Account", new { email = model.Email }, Request.Scheme);
 
@@ -129,13 +130,15 @@ namespace Assignment.PL.Controllers
                     {
                         To = model.Email,
                         Subject = "Reset Password",
+                        //Body = "--------Reset Your Password-----------"
                         Body = resetPasswordLink
+
                     };
 
                     //Send Email
                     var res = EmailSettings.SendEmail(mail);
                     if (res)
-                        return RedirectToAction("Check Your Inbox");
+                        return RedirectToAction("CheckYourInbox");
                 }
 
 
@@ -152,14 +155,19 @@ namespace Assignment.PL.Controllers
             return View();
         }
 
+        #region Reset Password
+
         [HttpGet]
         public IActionResult ResetPasswordLink(string email, string token)
         {
+            TempData["email"] = email;
+            TempData["token"] = token;
+
             return View();
         }
 
         [HttpPost]
-        public IActionResult ResetPassword(ResetPasswordViewModel model)
+        public IActionResult ResetPasswordLink(ResetPasswordViewModel model)
         {
             if(!ModelState.IsValid)
                return View(model);
@@ -187,5 +195,7 @@ namespace Assignment.PL.Controllers
 
             return View(model);
         }
+
+        #endregion
     }
 }
