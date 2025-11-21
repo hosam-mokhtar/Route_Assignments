@@ -87,7 +87,8 @@ namespace Assignment.PL
 
 
             })
-              .AddEntityFrameworkStores<ApplicationDbContext>();
+              .AddEntityFrameworkStores<ApplicationDbContext>()
+              .AddDefaultTokenProviders();
 
             #endregion
 

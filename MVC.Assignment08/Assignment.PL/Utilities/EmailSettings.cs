@@ -11,12 +11,12 @@ namespace Assignment.PL.Utilities
             {
                 var client = new SmtpClient("smtp.gmail.com", 587);
                 client.EnableSsl = true;
-                client.Credentials = new NetworkCredential("hossammohamedbit@gmail.com", "sdfn adsd adid oiem");
-                client.Send("hossammohamedbit@gmail.com", email.To, email.Subject, email.Body);
+                client.Credentials = new NetworkCredential("xxxxx@gmail.com", "xxxx xxxx xxxx xxxx");
+                client.Send("xxxxx@gmail.com", email.To, email.Subject, email.Body);
 
-                return false;
+                return true;
             }
-            catch(Exception)
+            catch (Exception)
             {
                 return false;
             }
