@@ -10,5 +10,6 @@ namespace ServiceAbstraction.Layer
     {
                                              //Read Only
         public IProductService ProductService { get; }
+        public IBasketService BasketService { get; }
     }
 }
