@@ -1,11 +1,11 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Domain.Layer.Contracts;
-using Domain.Layer.Models;
+using Domain.Layer.Models.ProductModels;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Layer.Data;
 
