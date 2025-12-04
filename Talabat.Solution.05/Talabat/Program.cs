@@ -1,13 +1,23 @@
-
+using Azure.Core;
 using Domain.Layer.Contracts;
+using Domain.Layer.Models.IdentityModels;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens.Experimental;
 using Persistence.Layer;
 using Persistence.Layer.Data;
+using Persistence.Layer.Identity;
 using Persistence.Layer.Repositories;
 using Service.Layer;
 using Service.Layer.Mapping_Profiles;
 using ServiceAbstraction.Layer;
+using Shared.ErrorModels;
+using Talabat.CustomMiddleWares;
+using Talabat.Extensions;
+using Talabat.Factories;
 
 namespace Talabat
 {
@@ -22,33 +32,23 @@ namespace Talabat
             #region Add Services to The Container
 
             builder.Services.AddControllers();
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddswaggerService();
 
-            builder.Services.AddDbContext<StoreDbContext>(options =>
-            {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-            });
+            #region Register User-Defined Services
+            //Call Static Method 
+            //ApplicationServicesRegisteration.AddApplicationServices(builder.Services);
+            //or
+            //Call Extension Method 
+            builder.Services.AddApplicationServices();
 
-            builder.Services.AddScoped<IDataSeeding,DataSeeding>();
-            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddInfrastructureService(builder.Configuration);
 
-            #region Mapping Register
+            builder.Services.AddWebApplicationServices(builder.Configuration);
 
-            //builder.Services.AddAutoMapper(p => p.AddProfile(new ProductProfile()));
-            //builder.Services.AddAutoMapper(p => p.AddProfiles(new ProductProfile(), ));
-
-            //OR Dynamic 
-            //Version AutoMapper 14.0.0
-            //builder.Services.AddAutoMapper(typeof(ServiceLayerAssemblyReference).Assembly);
-
-            //Latest Version AutoMapper 15.1.0
-            builder.Services.AddAutoMapper((x) => { }, typeof(ServiceLayerAssemblyReference).Assembly);
 
             #endregion
-
-            builder.Services.AddScoped<IServiceManager, ServiceManager>();
 
             #endregion
 
@@ -56,14 +56,23 @@ namespace Talabat
 
             #region Data Seeding
 
-            using var scope = app.Services.CreateScope(); 
-            var seedObj = scope.ServiceProvider.GetRequiredService<IDataSeeding>();
-            await seedObj.DataSeedAsync();
+            await app.SeedDatabaseAsync();
 
             #endregion
 
 
             #region Configure the HTTP request pipeline.
+
+
+            //app.Use(async (RequestContent, NextMiddleWare) =>
+            //{
+            //    Console.WriteLine("Request Under Processing");
+            //    await NextMiddleWare.Invoke();
+            //    Console.WriteLine("Waiting Response");
+            //});
+
+            app.UseCustomExceptionMiddleWare();
+            
 
             if (app.Environment.IsDevelopment())
             {
@@ -73,7 +82,10 @@ namespace Talabat
 
             app.UseHttpsRedirection();
 
+
+            app.UseAuthentication();
             app.UseAuthorization();
+
 
             app.UseStaticFiles();
             app.MapControllers();

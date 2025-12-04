@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ServiceAbstraction.Layer;
 using Shared;
-using Shared.DTOs;
+using Shared.DTOs.ProductDtos;
 
 namespace Presentation.Layer.Controllers
 {
     [ApiController]
     [Route("api/[Controller]")]
+    [Authorize]
     public class ProductsController(IServiceManager _serviceManager) : ControllerBase
     {
         // Get All Products
@@ -27,6 +29,7 @@ namespace Presentation.Layer.Controllers
         //Get Product By Id
         //[HttpGet]                   //Conflict =>  Get :: BaseUrl/api/Products?id=5         
         [HttpGet("{id}")]                         // Get :: BaseUrl/api/Products/5
+        //[Authorize(Roles = "Admin")]
         public async Task<ActionResult<ProductDto>> GetProductById(int id)
         {
             var product = await _serviceManager.ProductService.GetProductByIdAsync(id);
