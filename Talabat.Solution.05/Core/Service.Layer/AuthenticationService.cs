@@ -142,7 +142,8 @@ namespace Service.Layer
         public async Task<AddressDto> GetCurrentUserAddressAsync(string email)
         {
             var user = await _userManager.Users
-                            .Include(u => u.Address).FirstOrDefaultAsync() ??
+                            .Include(u => u.Address)
+                            .FirstOrDefaultAsync(u => u.Email == email) ??
                             throw new UserNotFoundException(email);
 
             if (user.Address is not null)
