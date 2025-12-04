@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Domain.Layer.Models;
+using Domain.Layer.Models.ProductModels;
 using Shared;
 
 namespace Service.Layer.Specifications
