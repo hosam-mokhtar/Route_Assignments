@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Shared;
-using Shared.DTOs;
+using Shared.DTOs.ProductDtos;
 
 namespace ServiceAbstraction.Layer
 {
