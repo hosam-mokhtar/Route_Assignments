@@ -156,7 +156,7 @@ namespace Service.Layer
         {
             var user = await _userManager.Users
                             .Include(u => u.Address)
-                            .FirstOrDefaultAsync() ??
+                            .FirstOrDefaultAsync(u => u.Email == email) ??
                              throw new UserNotFoundException(email);
             if (user.Address is not null) //Update
             {
