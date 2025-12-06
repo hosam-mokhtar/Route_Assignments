@@ -10,5 +10,11 @@ namespace ServiceAbstraction.Layer
     {
                                              //Read Only
         public IProductService ProductService { get; }
+<<<<<<< Updated upstream
+=======
+        public IBasketService BasketService { get; }
+        public IAuthenticationService AuthenticationService { get; }
+        public IOrderService OrderService { get; }
+>>>>>>> Stashed changes
     }
 }

@@ -10,5 +10,9 @@ namespace Domain.Layer.Contracts
     {
         //public void DataSeed();
         public Task DataSeedAsync();
+<<<<<<< Updated upstream
+=======
+        public Task IdentityDataSeedAsync();
+>>>>>>> Stashed changes
     }
 }

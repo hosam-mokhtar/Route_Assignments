@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< Updated upstream
 using Microsoft.AspNetCore.Mvc;
 using ServiceAbstraction.Layer;
 using Shared;
@@ -13,6 +14,18 @@ namespace Presentation.Layer.Controllers
     [ApiController]
     [Route("api/[Controller]")]
     public class ProductsController(IServiceManager _serviceManager) : ControllerBase
+=======
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using ServiceAbstraction.Layer;
+using Shared;
+using Shared.DTOs.ProductDtos;
+
+namespace Presentation.Layer.Controllers
+{
+    [Authorize]
+    public class ProductsController(IServiceManager _serviceManager) : ApiBaseController
+>>>>>>> Stashed changes
     {
         // Get All Products
         [HttpGet]                         // Get :: BaseUrl/api/Products
@@ -27,6 +40,10 @@ namespace Presentation.Layer.Controllers
         //Get Product By Id
         //[HttpGet]                   //Conflict =>  Get :: BaseUrl/api/Products?id=5         
         [HttpGet("{id}")]                         // Get :: BaseUrl/api/Products/5
+<<<<<<< Updated upstream
+=======
+        //[Authorize(Roles = "Admin")]
+>>>>>>> Stashed changes
         public async Task<ActionResult<ProductDto>> GetProductById(int id)
         {
             var product = await _serviceManager.ProductService.GetProductByIdAsync(id);

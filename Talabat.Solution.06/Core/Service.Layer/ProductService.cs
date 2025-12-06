@@ -5,11 +5,21 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Domain.Layer.Contracts;
+<<<<<<< Updated upstream
 using Domain.Layer.Models;
 using Service.Layer.Specifications;
 using ServiceAbstraction.Layer;
 using Shared;
 using Shared.DTOs;
+=======
+using Domain.Layer.Exceptions;
+using Domain.Layer.Models.ProductModels;
+using Service.Layer.Specifications;
+using Service.Layer.Specifications.ProductModuleSpecification;
+using ServiceAbstraction.Layer;
+using Shared;
+using Shared.DTOs.ProductDtos;
+>>>>>>> Stashed changes
 
 namespace Service.Layer
 {
@@ -38,6 +48,13 @@ namespace Service.Layer
             var specs = new ProductWithBrandAndTypeSpecifications(id);
                                                                                        
             var product = await _unitOfWork.GetRepository<Product, int>().GetByIdAsync(specs);
+<<<<<<< Updated upstream
+=======
+
+            if(product is null) 
+                throw new ProductNotFoundException(id);
+
+>>>>>>> Stashed changes
             return _mapper.Map<ProductDto>(product);
         }
 
