@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+<<<<<<< Updated upstream
 using Domain.Layer.Models;
 using Microsoft.Extensions.Configuration;
 using Shared.DTOs;
+=======
+using Domain.Layer.Models.ProductModels;
+using Microsoft.Extensions.Configuration;
+using Shared.DTOs.ProductDtos;
+>>>>>>> Stashed changes
 
 namespace Service.Layer.Mapping_Profiles
 {

@@ -4,7 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Shared;
+<<<<<<< Updated upstream
 using Shared.DTOs;
+=======
+using Shared.DTOs.ProductDtos;
+>>>>>>> Stashed changes
 
 namespace ServiceAbstraction.Layer
 {

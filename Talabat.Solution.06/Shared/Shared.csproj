@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+<<<<<<< Updated upstream
+=======
+  <ItemGroup>
+    <Folder Include="Authentication\" />
+  </ItemGroup>
+
+>>>>>>> Stashed changes
 </Project>

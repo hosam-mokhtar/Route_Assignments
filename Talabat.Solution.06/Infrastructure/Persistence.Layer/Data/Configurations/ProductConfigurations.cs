@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< Updated upstream
 using Domain.Layer.Models;
+=======
+using Domain.Layer.Models.ProductModels;
+>>>>>>> Stashed changes
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
