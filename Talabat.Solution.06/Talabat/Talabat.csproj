@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< Updated upstream
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.21">
+=======
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.22">
+>>>>>>> Stashed changes
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

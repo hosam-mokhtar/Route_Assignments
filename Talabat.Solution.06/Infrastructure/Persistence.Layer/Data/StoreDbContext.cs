@@ -4,7 +4,11 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< Updated upstream
 using Domain.Layer.Models;
+=======
+using Domain.Layer.Models.ProductModels;
+>>>>>>> Stashed changes
 using Microsoft.EntityFrameworkCore;
 
 namespace Persistence.Layer.Data
